@@ -1,0 +1,11 @@
+# Pilot для 16 GB GPU (RTX 4080 SUPER, часть памяти занята рабочим столом): батчи меньше, чем на 5090.
+model: Qwen/Qwen3.5-9B
+revision: c202236235762e1c871ad0ccb60c8ee5ba337b9a
+quantize: true
+max_tokens: 2048
+confidence_threshold: 0.7
+adapter: checkpoints/qlora_pilot/adapter
+served_model_name: Adata-Decision-1-9B
+max_batch_size: 32
+max_batch_tokens: 16384
+prefix_cache_size: 4

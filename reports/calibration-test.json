@@ -1,0 +1,73 @@
+{
+  "split": "test",
+  "temperature": 2.536649115998089,
+  "experimental": true,
+  "raw": {
+    "count": 217,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "nll": 0.0044863806491385085,
+    "brier": 0.0027159139835058314,
+    "ece": 0.0035453805837208454,
+    "reliability_bins": [
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 1,
+        "accuracy": 1.0,
+        "confidence": 0.5621757045950935
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 1,
+        "accuracy": 1.0,
+        "confidence": 0.6791784865026023
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 215,
+        "accuracy": 1.0,
+        "confidence": 0.9999502242894646
+      }
+    ],
+    "p50_latency_ms": 103.4625869942829,
+    "p95_latency_ms": 129.59751238813624,
+    "throughput_per_second": 9.437799791242034
+  },
+  "calibrated": {
+    "count": 217,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "nll": 0.009684100392487932,
+    "brier": 0.004102332431333893,
+    "ece": 0.00817155978343722,
+    "reliability_bins": [
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 2,
+        "accuracy": 1.0,
+        "confidence": 0.5455534938778047
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 2,
+        "accuracy": 1.0,
+        "confidence": 0.8809236449427824
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 213,
+        "accuracy": 1.0,
+        "confidence": 0.9970601748795913
+      }
+    ],
+    "p50_latency_ms": 103.4625869942829,
+    "p95_latency_ms": 129.59751238813624,
+    "throughput_per_second": 9.437799791242034
+  }
+}

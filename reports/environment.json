@@ -1,0 +1,50 @@
+{
+  "linux": "Linux-6.17.0-29-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "disk": {
+    "total": 1966736678912,
+    "used": 1742828634112,
+    "free": 123927793664
+  },
+  "ram": {
+    "total": 66483367936,
+    "available": 37828804608,
+    "percent": 43.1,
+    "used": 28654563328,
+    "free": 6873583616,
+    "active": 25795784704,
+    "inactive": 29071233024,
+    "buffers": 589959168,
+    "cached": 32109596672,
+    "shared": 1003921408,
+    "slab": 3139796992
+  },
+  "libraries": {
+    "cuda": "libcuda.so.1",
+    "stdc++": "libstdc++.so.6",
+    "gomp": "libgomp.so.1"
+  },
+  "nvidia_smi": "NVIDIA GeForce RTX 4080 SUPER, 580.159.03, 16376 MiB, 13430 MiB",
+  "torch_cuda": "12.8",
+  "cuda_available": true,
+  "bf16": true,
+  "cuda_capability": [
+    8,
+    9
+  ],
+  "huggingface": 200,
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.17.0",
+    "unsloth": "2026.10.3",
+    "unsloth_zoo": "2026.10.3",
+    "peft": "0.21.2",
+    "trl": "1.13.0",
+    "bitsandbytes": "0.50.2",
+    "fastapi": "0.143.0",
+    "pydantic": "2.14.1",
+    "accelerate": "1.15.0",
+    "triton": "3.6.0"
+  },
+  "recommendations": []
+}

@@ -1,0 +1,12 @@
+model: Qwen/Qwen3.5-9B
+quantize: true
+max_seq_length: 1024
+r: 16
+lora_alpha: 16
+batch_size: 1
+gradient_accumulation_steps: 8
+max_steps: 1000
+learning_rate: 0.00005
+seed: 42
+output_dir: checkpoints/full-9b
+optim: adamw_8bit

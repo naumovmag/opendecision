@@ -1,0 +1,6 @@
+# Вторая копия сервиса на GPU1 (отдельный compose-проект, прод на GPU0 не затрагивается):
+# OPENDECISION_GPU=1 OPENDECISION_PORT=8002 \
+#   sudo -E docker compose -p opendecision-gpu1 -f compose.yaml -f compose.gpu1.yaml up -d --no-build
+services:
+  opendecision:
+    container_name: opendecision-api-gpu1

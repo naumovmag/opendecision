@@ -1,0 +1,8 @@
+# Слитая модель: Qwen3.5-9B + qlora_pilot, BF16, без отдельного адаптера.
+model: models/opendecision-qwen3.5-9b-pilot
+revision: main
+quantize: false
+max_tokens: 4096
+confidence_threshold: 0.7
+adapter: null
+served_model_name: Adata-Decision-1-9B

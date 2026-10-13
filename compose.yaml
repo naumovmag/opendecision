@@ -1,0 +1,42 @@
+services:
+  opendecision:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: opendecision:local
+    container_name: opendecision-api
+    init: true
+    restart: unless-stopped
+    # UID владельца HF-кеша и адаптера на хосте (локально 1000, на AI-ноде 1007).
+    user: "${OPENDECISION_UID:-1000}:${OPENDECISION_GID:-1000}"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["${OPENDECISION_GPU:-0}"]
+              capabilities: [gpu]
+    environment:
+      OPENDECISION_CONFIG: "${OPENDECISION_CONFIG:-configs/inference-pilot.yaml}"
+      HF_HOME: /home/opendecision/.cache/huggingface
+      HF_HUB_OFFLINE: "${HF_HUB_OFFLINE:-0}"
+      TOKENIZERS_PARALLELISM: "false"
+      # Для UID без записи в /etc/passwd образа: torch вызывает getpass.getuser() и пишет кеши в HOME.
+      USER: opendecision
+      HOME: /tmp/opendecision-home
+      # Скомпилированные Triton-ядра переживают перезапуск контейнера (иначе первые батчи +0,5 с).
+      TRITON_CACHE_DIR: /app/.triton-cache
+    ports:
+      - "${OPENDECISION_BIND:-127.0.0.1}:${OPENDECISION_PORT:-8000}:8000"
+    volumes:
+      - ${HF_CACHE_DIR:-${HOME}/.cache/huggingface}:/home/opendecision/.cache/huggingface
+      - ./checkpoints/qlora_pilot/adapter:/app/checkpoints/qlora_pilot/adapter:ro
+      # Каталог должен существовать и принадлежать OPENDECISION_UID: mkdir -p .triton-cache
+      - ./.triton-cache:/app/.triton-cache
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 120s
+    stop_grace_period: 30s

@@ -1,0 +1,17 @@
+.venv/
+.venv-incomplete*/
+_unsloth_temporary_saved_buffers/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.env
+checkpoints/*
+models/
+unsloth_compiled_cache/
+*.log
+.triton-cache/
+.omc/
+.pytest_cache/
+reports/*.log
+data/raw/

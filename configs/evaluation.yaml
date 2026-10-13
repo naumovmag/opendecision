@@ -1,0 +1,6 @@
+test_dataset: data/processed/test.jsonl
+ood_dataset: data/examples/independent.jsonl
+validation_dataset: data/processed/validation.jsonl
+baseline_config: configs/inference.yaml
+adapter_config: configs/inference-adapter.yaml
+pilot_config: configs/inference-pilot.yaml

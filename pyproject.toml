@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opendecision"
+version = "0.1.0"
+description = "Decision scoring among dynamic options on Qwen3.5-9B (Adata-Decision-1-9B)"
+license = "Apache-2.0"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.10", "transformers>=5,<6", "accelerate", "bitsandbytes", "peft", "trl", "unsloth", "fastapi", "uvicorn", "pydantic>=2", "pyyaml", "numpy", "scipy", "scikit-learn", "httpx", "psutil", "typer"]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+opendecision = "opendecision.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: реальные GPU тесты, включаются через OPENDECISION_GPU_TEST=1"]
+
+[tool.ruff]
+line-length = 100
+

@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "base_model": "Qwen/Qwen3.5-9B",
+  "adapter": "checkpoints/qlora_smoke/adapter",
+  "records": [
+    {
+      "id": "bucket-3-170",
+      "target_tokens": [
+        32,
+        248046
+      ],
+      "decoded_target": "A<|im_end|>",
+      "prompt_tokens_masked": 148,
+      "supervised_tokens": 2,
+      "independent_cross_entropy": 1.072882923836005e-06,
+      "correct": true
+    },
+    {
+      "id": "bucket-0-126",
+      "target_tokens": [
+        33,
+        248046
+      ],
+      "decoded_target": "B<|im_end|>",
+      "prompt_tokens_masked": 159,
+      "supervised_tokens": 2,
+      "independent_cross_entropy": 8.940692737269273e-07,
+      "correct": true
+    },
+    {
+      "id": "bucket-1-44",
+      "target_tokens": [
+        32,
+        248046
+      ],
+      "decoded_target": "A<|im_end|>",
+      "prompt_tokens_masked": 129,
+      "supervised_tokens": 2,
+      "independent_cross_entropy": 1.7285331068706e-06,
+      "correct": true
+    },
+    {
+      "id": "bucket-5-97",
+      "target_tokens": [
+        32,
+        248046
+      ],
+      "decoded_target": "A<|im_end|>",
+      "prompt_tokens_masked": 138,
+      "supervised_tokens": 2,
+      "independent_cross_entropy": 2.801412392727798e-06,
+      "correct": true
+    },
+    {
+      "id": "bucket-2-34",
+      "target_tokens": [
+        34,
+        248046
+      ],
+      "decoded_target": "C<|im_end|>",
+      "prompt_tokens_masked": 193,
+      "supervised_tokens": 2,
+      "independent_cross_entropy": 1.072882923836005e-06,
+      "correct": true
+    },
+    {
+      "id": "bucket-4-112",
+      "target_tokens": [
+        35,
+        248046
+      ],
+      "decoded_target": "D<|im_end|>",
+      "prompt_tokens_masked": 227,
+      "supervised_tokens": 2,
+      "independent_cross_entropy": 2.0265558760002023e-06,
+      "correct": true
+    },
+    {
+      "id": "bucket-3-178",
+      "target_tokens": [
+        32,
+        248046
+      ],
+      "decoded_target": "A<|im_end|>",
+      "prompt_tokens_masked": 261,
+      "supervised_tokens": 2,
+      "independent_cross_entropy": 2.6822046947927447e-06,
+      "correct": true
+    },
+    {
+      "id": "bucket-3-211",
+      "target_tokens": [
+        35,
+        248046
+      ],
+      "decoded_target": "D<|im_end|>",
+      "prompt_tokens_masked": 212,
+      "supervised_tokens": 2,
+      "independent_cross_entropy": 4.9529095122125e-05,
+      "correct": true
+    }
+  ],
+  "quantization": {
+    "quant_method": "bitsandbytes",
+    "_load_in_8bit": false,
+    "_load_in_4bit": true,
+    "llm_int8_threshold": 6.0,
+    "llm_int8_skip_modules": null,
+    "llm_int8_enable_fp32_cpu_offload": false,
+    "llm_int8_has_fp16_weight": false,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "bfloat16",
+    "bnb_4bit_quant_storage": "uint8",
+    "load_in_4bit": true,
+    "load_in_8bit": false
+  }
+}

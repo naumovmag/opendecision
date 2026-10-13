@@ -1,0 +1,6009 @@
+{
+  "split": "test",
+  "dataset": "data/processed/test.jsonl",
+  "dataset_sha256": "0b38c151747c194a0767055dedf6cc1c80f73c65846b098f2b9168d60c4e509a",
+  "sample_ids": [
+    "bucket-2-317",
+    "bucket-0-187",
+    "bucket-0-59",
+    "bucket-5-229",
+    "bucket-0-29",
+    "bucket-5-154",
+    "bucket-4-221",
+    "bucket-0-377",
+    "bucket-4-98",
+    "bucket-5-91",
+    "bucket-0-209",
+    "bucket-5-125",
+    "bucket-0-144",
+    "bucket-3-14",
+    "bucket-0-119",
+    "bucket-0-308",
+    "bucket-4-287",
+    "bucket-3-58",
+    "bucket-3-53",
+    "bucket-3-220",
+    "bucket-0-134",
+    "bucket-5-172",
+    "bucket-0-0",
+    "bucket-0-320",
+    "bucket-5-135",
+    "bucket-4-156",
+    "bucket-4-281",
+    "bucket-0-176",
+    "bucket-4-249",
+    "bucket-4-272",
+    "bucket-0-375",
+    "bucket-3-200",
+    "bucket-2-155",
+    "bucket-3-87",
+    "bucket-4-28",
+    "bucket-3-187",
+    "bucket-5-295",
+    "bucket-0-90",
+    "bucket-2-171",
+    "bucket-4-225",
+    "bucket-0-189",
+    "bucket-0-344",
+    "bucket-2-53",
+    "bucket-5-151",
+    "bucket-3-299",
+    "bucket-5-258",
+    "bucket-0-143",
+    "bucket-0-250",
+    "bucket-4-140",
+    "bucket-0-342",
+    "bucket-5-15",
+    "bucket-5-190",
+    "bucket-0-38",
+    "bucket-1-50",
+    "bucket-4-102",
+    "bucket-0-165",
+    "bucket-0-232",
+    "bucket-0-152",
+    "bucket-0-160",
+    "bucket-0-396",
+    "bucket-0-294",
+    "bucket-1-266",
+    "bucket-4-254",
+    "bucket-0-238",
+    "bucket-1-245",
+    "bucket-3-168",
+    "bucket-3-251",
+    "bucket-5-93",
+    "bucket-5-267",
+    "bucket-3-247",
+    "bucket-3-259",
+    "bucket-4-264",
+    "bucket-5-268",
+    "bucket-4-150",
+    "bucket-5-12",
+    "bucket-0-113",
+    "bucket-4-5",
+    "bucket-2-201",
+    "bucket-4-230",
+    "bucket-0-236",
+    "bucket-5-69",
+    "bucket-1-251",
+    "bucket-5-251",
+    "bucket-2-131",
+    "bucket-0-325",
+    "bucket-0-383",
+    "bucket-1-260",
+    "bucket-1-75",
+    "bucket-1-21",
+    "bucket-0-181",
+    "bucket-5-299",
+    "bucket-0-379",
+    "bucket-0-223",
+    "bucket-2-206",
+    "bucket-2-195",
+    "bucket-0-148",
+    "bucket-5-30",
+    "bucket-3-234",
+    "bucket-5-139",
+    "bucket-4-243",
+    "bucket-0-164",
+    "bucket-2-5",
+    "bucket-5-71",
+    "bucket-2-223",
+    "bucket-2-361",
+    "bucket-3-202",
+    "bucket-5-140",
+    "bucket-3-245",
+    "bucket-2-365",
+    "bucket-1-250",
+    "bucket-4-172",
+    "bucket-4-39",
+    "bucket-0-55",
+    "bucket-0-63",
+    "bucket-4-148",
+    "bucket-0-336",
+    "bucket-3-131",
+    "bucket-0-324",
+    "bucket-0-215",
+    "bucket-4-154",
+    "bucket-0-182",
+    "bucket-4-241",
+    "bucket-4-282",
+    "bucket-4-141",
+    "bucket-0-76",
+    "bucket-4-105",
+    "bucket-1-90",
+    "bucket-0-57",
+    "bucket-1-287",
+    "bucket-0-213",
+    "bucket-0-398",
+    "bucket-1-226",
+    "bucket-1-128",
+    "bucket-0-22",
+    "bucket-5-98",
+    "bucket-5-108",
+    "bucket-0-53",
+    "bucket-5-175",
+    "bucket-4-166",
+    "bucket-0-282",
+    "bucket-0-122",
+    "bucket-0-5",
+    "bucket-5-107",
+    "bucket-2-308",
+    "bucket-2-312",
+    "bucket-0-156",
+    "bucket-4-227",
+    "bucket-0-347",
+    "bucket-5-285",
+    "bucket-0-49",
+    "bucket-0-316",
+    "bucket-4-228",
+    "bucket-4-261",
+    "bucket-0-24",
+    "bucket-3-144",
+    "bucket-4-7",
+    "bucket-0-369",
+    "bucket-4-237",
+    "bucket-1-74",
+    "bucket-4-168",
+    "bucket-4-294",
+    "bucket-5-148",
+    "bucket-0-303",
+    "bucket-1-197",
+    "bucket-4-276",
+    "bucket-5-231",
+    "bucket-4-20",
+    "bucket-0-93",
+    "bucket-0-341",
+    "bucket-2-49",
+    "bucket-3-47",
+    "bucket-0-392",
+    "bucket-2-212",
+    "bucket-0-217",
+    "bucket-3-138",
+    "bucket-4-118",
+    "bucket-0-198",
+    "bucket-1-173",
+    "bucket-2-266",
+    "bucket-0-78",
+    "bucket-2-121",
+    "bucket-1-69",
+    "bucket-0-304",
+    "bucket-1-175",
+    "bucket-4-93",
+    "bucket-0-312",
+    "bucket-0-16",
+    "bucket-2-0",
+    "bucket-1-84",
+    "bucket-0-27",
+    "bucket-4-198",
+    "bucket-2-199",
+    "bucket-1-151",
+    "bucket-0-373",
+    "bucket-4-175",
+    "bucket-0-253",
+    "bucket-5-253",
+    "bucket-0-219",
+    "bucket-0-72",
+    "bucket-4-111",
+    "bucket-0-4",
+    "bucket-3-4",
+    "bucket-1-111",
+    "bucket-0-349",
+    "bucket-0-273",
+    "bucket-0-358",
+    "bucket-2-218",
+    "bucket-4-38",
+    "bucket-0-279",
+    "bucket-0-21",
+    "bucket-3-34",
+    "bucket-0-184",
+    "bucket-5-31",
+    "bucket-5-191",
+    "bucket-2-176",
+    "bucket-4-235",
+    "bucket-3-288"
+  ],
+  "identity": {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "main",
+    "quantize": true,
+    "adapter": "checkpoints/qlora_smoke/adapter"
+  },
+  "metadata": {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "main",
+    "resolved_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "tokenizer_revision": null,
+    "backend": "transformers-bnb4",
+    "adapter": "checkpoints/qlora_smoke/adapter",
+    "label_tokens": [
+      [
+        32
+      ],
+      [
+        33
+      ],
+      [
+        34
+      ],
+      [
+        35
+      ],
+      [
+        36
+      ],
+      [
+        37
+      ]
+    ],
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.17.0",
+      "bitsandbytes": "0.50.2",
+      "peft": "0.21.2"
+    },
+    "gpu_peak_allocated_bytes": 8088590336,
+    "gpu_peak_reserved_bytes": 8237613056
+  },
+  "metrics": {
+    "count": 217,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "nll": 0.0044863806491385085,
+    "brier": 0.0027159139835058314,
+    "ece": 0.0035453805837208454,
+    "reliability_bins": [
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 1,
+        "accuracy": 1.0,
+        "confidence": 0.5621757045950935
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 1,
+        "accuracy": 1.0,
+        "confidence": 0.6791784865026023
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 215,
+        "accuracy": 1.0,
+        "confidence": 0.9999502242894646
+      }
+    ],
+    "p50_latency_ms": 103.4625869942829,
+    "p95_latency_ms": 129.59751238813624,
+    "throughput_per_second": 9.437799791242034
+  },
+  "records": [
+    {
+      "id": "bucket-2-317",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        33.25,
+        19.375,
+        19.125,
+        19.375,
+        18.75,
+        33.5,
+        17.25
+      ],
+      "probabilities": [
+        0.4378228789623776,
+        4.1253662950156766e-07,
+        3.212838501014589e-07,
+        4.1253662950156766e-07,
+        2.2081494562341852e-07,
+        0.5621757045950935,
+        4.9270474180120196e-08
+      ],
+      "target": 5,
+      "semantic_labels": [
+        "Решение 7: правильных ответов 154–163",
+        "Решение 2: правильных ответов 104–113",
+        "Решение 1: правильных ответов 94–103",
+        "Решение 5: правильных ответов 134–143",
+        "Решение 4: правильных ответов 124–133",
+        "Решение 6: правильных ответов 144–153",
+        "Решение 3: правильных ответов 114–123"
+      ],
+      "latency_ms": 418.1289749685675
+    },
+    {
+      "id": "bucket-0-187",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        17.875,
+        17.25,
+        40.0
+      ],
+      "probabilities": [
+        2.4616969508850235e-10,
+        1.3176514265115604e-10,
+        0.9999999996220652
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 101.98083700379357
+    },
+    {
+      "id": "bucket-0-59",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        37.5,
+        15.75,
+        15.5625
+      ],
+      "probabilities": [
+        0.9999999993448878,
+        3.5817479279367343e-10,
+        2.9693733262418666e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 86–95",
+        "Category: value in range 76–85",
+        "Category: value in range 66–75"
+      ],
+      "latency_ms": 99.361817992758
+    },
+    {
+      "id": "bucket-5-229",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        39.5,
+        15.75,
+        15.0
+      ],
+      "probabilities": [
+        0.9999999999286291,
+        4.8473687059242944e-11,
+        2.2897348454821325e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 1: violations 115–124",
+        "Decision 2: violations 125–134",
+        "Decision 3: violations 135–144"
+      ],
+      "latency_ms": 101.13426699535921
+    },
+    {
+      "id": "bucket-0-29",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        21.375,
+        41.0
+      ],
+      "probabilities": [
+        2.998960815863541e-09,
+        0.9999999970010391
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 118–127",
+        "Category: value in range 108–117"
+      ],
+      "latency_ms": 99.83663400635123
+    },
+    {
+      "id": "bucket-5-154",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        24.375,
+        17.125,
+        17.875,
+        16.875,
+        15.5625,
+        16.125,
+        35.0
+      ],
+      "probabilities": [
+        2.4300238867363814e-05,
+        1.7257407286358054e-08,
+        3.6533931511911696e-08,
+        1.344008230839782e-08,
+        3.6173490799249745e-09,
+        6.348645348573378e-09,
+        0.999975622563717
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Решение 7: нарушений 105–114",
+        "Решение 5: нарушений 85–94",
+        "Решение 1: нарушений 45–54",
+        "Решение 2: нарушений 55–64",
+        "Решение 3: нарушений 65–74",
+        "Решение 4: нарушений 75–84",
+        "Решение 6: нарушений 95–104"
+      ],
+      "latency_ms": 107.06198000116274
+    },
+    {
+      "id": "bucket-4-221",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        36.5,
+        15.5
+      ],
+      "probabilities": [
+        0.9999999992417439,
+        7.582560422162384e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 2: affected clients 167–176",
+        "Decision 1: affected clients 157–166"
+      ],
+      "latency_ms": 99.9732730560936
+    },
+    {
+      "id": "bucket-0-377",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        39.25,
+        15.8125,
+        15.1875
+      ],
+      "probabilities": [
+        0.9999999998982803,
+        6.625567461914775e-11,
+        3.546410704413443e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 86–95",
+        "Category: value in range 66–75",
+        "Category: value in range 76–85"
+      ],
+      "latency_ms": 100.25358299026266
+    },
+    {
+      "id": "bucket-4-98",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        17.0,
+        16.25,
+        37.0
+      ],
+      "probabilities": [
+        2.0611536161834235e-09,
+        9.736200283462403e-10,
+        0.9999999969652265
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 1: affected clients 66–75",
+        "Decision 2: affected clients 76–85",
+        "Decision 3: affected clients 86–95"
+      ],
+      "latency_ms": 102.91419102577493
+    },
+    {
+      "id": "bucket-5-91",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        19.875,
+        24.75,
+        19.125,
+        17.875,
+        38.5,
+        16.5,
+        15.375
+      ],
+      "probabilities": [
+        8.15201190068172e-09,
+        1.0677028556563043e-06,
+        3.850737759428751e-09,
+        1.103254839526998e-09,
+        0.9999989188216326,
+        2.789465076956366e-10,
+        9.056067198438333e-11
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 4: violations 75–84",
+        "Decision 5: violations 85–94",
+        "Decision 3: violations 65–74",
+        "Decision 2: violations 55–64",
+        "Decision 6: violations 95–104",
+        "Decision 7: violations 105–114",
+        "Decision 1: violations 45–54"
+      ],
+      "latency_ms": 108.71173796476796
+    },
+    {
+      "id": "bucket-0-209",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        17.25,
+        37.0,
+        17.125,
+        16.375
+      ],
+      "probabilities": [
+        2.6465736228035983e-09,
+        0.9999999939145774,
+        2.3355930245862665e-09,
+        1.1032560256297747e-09
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 73–82",
+        "Category: value in range 83–92",
+        "Category: value in range 103–112",
+        "Category: value in range 93–102"
+      ],
+      "latency_ms": 103.18036400713027
+    },
+    {
+      "id": "bucket-5-125",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        40.25,
+        17.625,
+        17.375,
+        16.375,
+        16.5,
+        13.875
+      ],
+      "probabilities": [
+        0.9999999996396454,
+        1.4930946756591206e-10,
+        1.1628233026030682e-10,
+        4.2777878674274773e-11,
+        4.847368704523484e-11,
+        3.5114221121111544e-12
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 1: нарушений 136–145",
+        "Решение 3: нарушений 156–165",
+        "Решение 6: нарушений 186–195",
+        "Решение 2: нарушений 146–155",
+        "Решение 4: нарушений 166–175",
+        "Решение 5: нарушений 176–185"
+      ],
+      "latency_ms": 109.53050502575934
+    },
+    {
+      "id": "bucket-0-144",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        41.0,
+        18.125
+      ],
+      "probabilities": [
+        0.9999999998837177,
+        1.1628233028868813e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 108–117",
+        "Категория: значение в диапазоне 118–127"
+      ],
+      "latency_ms": 101.58244398189709
+    },
+    {
+      "id": "bucket-3-14",
+      "task": "verification",
+      "language": "ru",
+      "scores": [
+        21.625,
+        18.625,
+        17.375,
+        17.625,
+        37.0
+      ],
+      "probabilities": [
+        2.1024333739510783e-07,
+        1.0467399412778121e-08,
+        2.9989601424124685e-09,
+        3.850741046491098e-09,
+        0.999999772439562
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 4: совпавших записей 110–119",
+        "Решение 2: совпавших записей 90–99",
+        "Решение 5: совпавших записей 120–129",
+        "Решение 3: совпавших записей 100–109",
+        "Решение 1: совпавших записей 80–89"
+      ],
+      "latency_ms": 105.50761199556291
+    },
+    {
+      "id": "bucket-0-119",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        21.625,
+        40.0,
+        19.25,
+        18.75
+      ],
+      "probabilities": [
+        1.0467401668805568e-08,
+        0.9999999879684479,
+        9.736200195867965e-10,
+        5.905303927894067e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 132–141",
+        "Категория: значение в диапазоне 122–131",
+        "Категория: значение в диапазоне 142–151",
+        "Категория: значение в диапазоне 152–161"
+      ],
+      "latency_ms": 103.90902101062238
+    },
+    {
+      "id": "bucket-0-308",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        20.5,
+        40.0
+      ],
+      "probabilities": [
+        3.3982678079468468e-09,
+        0.9999999966017321
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 118–127",
+        "Категория: значение в диапазоне 108–117"
+      ],
+      "latency_ms": 103.45782799413428
+    },
+    {
+      "id": "bucket-4-287",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        37.75,
+        15.3125,
+        15.375
+      ],
+      "probabilities": [
+        0.9999999996281814,
+        1.8010159630087924e-10,
+        1.917171513045472e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 3: affected clients 86–95",
+        "Decision 2: affected clients 76–85",
+        "Decision 1: affected clients 66–75"
+      ],
+      "latency_ms": 104.1237969766371
+    },
+    {
+      "id": "bucket-3-58",
+      "task": "workflow",
+      "language": "en",
+      "scores": [
+        17.375,
+        37.25
+      ],
+      "probabilities": [
+        2.3355930333443423e-09,
+        0.999999997664407
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 1: ready documents 59–68",
+        "Decision 2: ready documents 69–78"
+      ],
+      "latency_ms": 99.31429801508784
+    },
+    {
+      "id": "bucket-3-53",
+      "task": "verification",
+      "language": "ru",
+      "scores": [
+        41.25,
+        18.125,
+        17.875,
+        17.125,
+        16.5
+      ],
+      "probabilities": [
+        0.9999999997877629,
+        9.056076987750832e-11,
+        7.052879849615277e-11,
+        3.331544541459335e-11,
+        1.7832472904361676e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 1: совпавших записей 80–89",
+        "Решение 3: совпавших записей 100–109",
+        "Решение 4: совпавших записей 110–119",
+        "Решение 5: совпавших записей 120–129",
+        "Решение 2: совпавших записей 90–99"
+      ],
+      "latency_ms": 108.77752199303359
+    },
+    {
+      "id": "bucket-3-220",
+      "task": "workflow",
+      "language": "ru",
+      "scores": [
+        38.25,
+        16.125
+      ],
+      "probabilities": [
+        0.9999999997538302,
+        2.4616969512093895e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 2: готовых документов 69–78",
+        "Решение 1: готовых документов 59–68"
+      ],
+      "latency_ms": 101.26448300434276
+    },
+    {
+      "id": "bucket-0-134",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        41.25,
+        17.75,
+        17.75
+      ],
+      "probabilities": [
+        0.9999999998755169,
+        6.224144622132982e-11,
+        6.224144622132982e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 115–124",
+        "Категория: значение в диапазоне 135–144",
+        "Категория: значение в диапазоне 125–134"
+      ],
+      "latency_ms": 102.0572519628331
+    },
+    {
+      "id": "bucket-5-172",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        19.125,
+        38.5,
+        16.875
+      ],
+      "probabilities": [
+        3.8507419063765216e-09,
+        0.9999999957433929,
+        4.058652109199606e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 2: violations 125–134",
+        "Decision 1: violations 115–124",
+        "Decision 3: violations 135–144"
+      ],
+      "latency_ms": 103.53086603572592
+    },
+    {
+      "id": "bucket-0-0",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        18.75,
+        17.0,
+        38.5,
+        17.25
+      ],
+      "probabilities": [
+        2.6465736291247095e-09,
+        4.599055361649566e-10,
+        0.9999999963029906,
+        5.905303977112075e-10
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 142–151",
+        "Category: value in range 152–161",
+        "Category: value in range 122–131",
+        "Category: value in range 132–141"
+      ],
+      "latency_ms": 103.80242898827419
+    },
+    {
+      "id": "bucket-0-320",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        19.125,
+        17.375,
+        38.5,
+        17.125
+      ],
+      "probabilities": [
+        3.850741903355866e-09,
+        6.691586057560217e-10,
+        0.9999999949589582,
+        5.211412461617592e-10
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 142–151",
+        "Category: value in range 152–161",
+        "Category: value in range 122–131",
+        "Category: value in range 132–141"
+      ],
+      "latency_ms": 105.0211819820106
+    },
+    {
+      "id": "bucket-5-135",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        21.5,
+        40.0,
+        18.125
+      ],
+      "probabilities": [
+        9.237449573720271e-09,
+        0.9999999904464624,
+        3.160881424116092e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 2: нарушений 125–134",
+        "Решение 1: нарушений 115–124",
+        "Решение 3: нарушений 135–144"
+      ],
+      "latency_ms": 101.74576303688809
+    },
+    {
+      "id": "bucket-4-156",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        40.5,
+        17.625,
+        18.0
+      ],
+      "probabilities": [
+        0.9999999997145279,
+        1.1628233026901433e-10,
+        1.6918979221321407e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 1: затронутых клиентов 115–124",
+        "Решение 2: затронутых клиентов 125–134",
+        "Решение 3: затронутых клиентов 135–144"
+      ],
+      "latency_ms": 101.87479702290148
+    },
+    {
+      "id": "bucket-4-281",
+      "task": "risk",
+      "language": "en",
+      "scores": [
+        20.5,
+        22.875,
+        20.625,
+        42.25
+      ],
+      "probabilities": [
+        3.5817479137541954e-10,
+        3.850741904997282e-09,
+        4.058652107745899e-10,
+        0.9999999953852181
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Decision 1: risk points 24–33",
+        "Decision 2: risk points 34–43",
+        "Decision 4: risk points 54–63",
+        "Decision 3: risk points 44–53"
+      ],
+      "latency_ms": 101.95355501491576
+    },
+    {
+      "id": "bucket-0-176",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        20.25,
+        38.75,
+        17.5
+      ],
+      "probabilities": [
+        9.237449571185125e-09,
+        0.9999999901720201,
+        5.905303940906831e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 66–75",
+        "Категория: значение в диапазоне 86–95",
+        "Категория: значение в диапазоне 76–85"
+      ],
+      "latency_ms": 102.4650820181705
+    },
+    {
+      "id": "bucket-4-249",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        21.75,
+        36.25
+      ],
+      "probabilities": [
+        5.043474082014517e-07,
+        0.9999994956525918
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Критический приоритет",
+        "Низкий приоритет"
+      ],
+      "latency_ms": 79.356350004673
+    },
+    {
+      "id": "bucket-4-272",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        19.0,
+        22.5,
+        19.5,
+        18.25,
+        36.5
+      ],
+      "probabilities": [
+        2.5109968709899178e-08,
+        8.315279624969334e-07,
+        4.139933951862543e-08,
+        1.1861109358929819e-08,
+        0.9999990901016199
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 2: затронутых клиентов 139–148",
+        "Решение 4: затронутых клиентов 159–168",
+        "Решение 1: затронутых клиентов 129–138",
+        "Решение 5: затронутых клиентов 169–178",
+        "Решение 3: затронутых клиентов 149–158"
+      ],
+      "latency_ms": 106.00845899898559
+    },
+    {
+      "id": "bucket-0-375",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.5,
+        18.375
+      ],
+      "probabilities": [
+        0.9999999997538302,
+        2.4616969512093895e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 108–117",
+        "Категория: значение в диапазоне 118–127"
+      ],
+      "latency_ms": 100.5373090156354
+    },
+    {
+      "id": "bucket-3-200",
+      "task": "verification",
+      "language": "en",
+      "scores": [
+        38.5,
+        16.0,
+        15.5,
+        16.125,
+        14.9375
+      ],
+      "probabilities": [
+        0.999999999478004,
+        1.6918979217319665e-10,
+        1.026187962634523e-10,
+        1.917171512757556e-10,
+        5.847042760547695e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 1: matching records 80–89",
+        "Decision 5: matching records 120–129",
+        "Decision 2: matching records 90–99",
+        "Decision 3: matching records 100–109",
+        "Decision 4: matching records 110–119"
+      ],
+      "latency_ms": 108.06365200551227
+    },
+    {
+      "id": "bucket-2-155",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        21.125,
+        17.5,
+        39.0,
+        19.375,
+        18.5
+      ],
+      "probabilities": [
+        1.7257827608860153e-08,
+        4.599055277625572e-10,
+        0.9999999780331532,
+        2.9989607589795944e-09,
+        1.2501528389248262e-09
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 4: correct answers 110–119",
+        "Decision 3: correct answers 100–109",
+        "Decision 1: correct answers 80–89",
+        "Decision 5: correct answers 120–129",
+        "Decision 2: correct answers 90–99"
+      ],
+      "latency_ms": 103.1995199737139
+    },
+    {
+      "id": "bucket-3-87",
+      "task": "verification",
+      "language": "ru",
+      "scores": [
+        21.375,
+        38.75,
+        17.5,
+        17.5,
+        16.125,
+        15.3125
+      ],
+      "probabilities": [
+        2.845334724050233e-08,
+        0.9999999701500271,
+        5.905303822670875e-10,
+        5.905303822670875e-10,
+        1.4930946316283284e-10,
+        6.625567264815716e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 1: совпавших записей 87–96",
+        "Решение 6: совпавших записей 137–146",
+        "Решение 5: совпавших записей 127–136",
+        "Решение 4: совпавших записей 117–126",
+        "Решение 2: совпавших записей 97–106",
+        "Решение 3: совпавших записей 107–116"
+      ],
+      "latency_ms": 131.50699704419822
+    },
+    {
+      "id": "bucket-4-28",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        18.5,
+        22.25,
+        17.375,
+        18.25,
+        33.75,
+        17.75,
+        14.6875
+      ],
+      "probabilities": [
+        2.3823440596558945e-07,
+        1.0129984711299076e-05,
+        7.734338770637937e-08,
+        1.8553714192055206e-07,
+        0.9999892511031043,
+        1.1253396509026892e-07,
+        5.26328358660659e-09
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 3: затронутых клиентов 163–172",
+        "Решение 5: затронутых клиентов 183–192",
+        "Решение 4: затронутых клиентов 173–182",
+        "Решение 7: затронутых клиентов 203–212",
+        "Решение 6: затронутых клиентов 193–202",
+        "Решение 1: затронутых клиентов 143–152",
+        "Решение 2: затронутых клиентов 153–162"
+      ],
+      "latency_ms": 133.2203039783053
+    },
+    {
+      "id": "bucket-3-187",
+      "task": "workflow",
+      "language": "en",
+      "scores": [
+        18.875,
+        19.125,
+        19.0,
+        19.375,
+        16.5,
+        18.875,
+        18.375,
+        42.25
+      ],
+      "probabilities": [
+        7.05287984774682e-11,
+        9.056076985351685e-11,
+        7.991959889140502e-11,
+        1.1628233024672462e-10,
+        6.5602001650235244e-12,
+        7.05287984774682e-11,
+        4.277787866927816e-11,
+        0.9999999995228417
+      ],
+      "target": 7,
+      "semantic_labels": [
+        "Decision 1: ready documents 52–61",
+        "Decision 3: ready documents 72–81",
+        "Decision 2: ready documents 62–71",
+        "Decision 4: ready documents 82–91",
+        "Decision 5: ready documents 92–101",
+        "Decision 6: ready documents 102–111",
+        "Decision 8: ready documents 122–131",
+        "Decision 7: ready documents 112–121"
+      ],
+      "latency_ms": 107.81731700990349
+    },
+    {
+      "id": "bucket-5-295",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        21.5,
+        40.0,
+        18.625
+      ],
+      "probabilities": [
+        9.237449571826102e-09,
+        0.9999999902414091,
+        5.211412437032497e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 2: нарушений 125–134",
+        "Решение 1: нарушений 115–124",
+        "Решение 3: нарушений 135–144"
+      ],
+      "latency_ms": 103.1817970215343
+    },
+    {
+      "id": "bucket-0-90",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.25,
+        18.0,
+        17.5
+      ],
+      "probabilities": [
+        0.999999999650991,
+        2.1724399343208156e-10,
+        1.3176514265496743e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 115–124",
+        "Категория: значение в диапазоне 135–144",
+        "Категория: значение в диапазоне 125–134"
+      ],
+      "latency_ms": 101.77834494970739
+    },
+    {
+      "id": "bucket-2-171",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        40.0,
+        17.375,
+        16.5,
+        15.8125,
+        14.125,
+        12.5625,
+        12.25
+      ],
+      "probabilities": [
+        0.9999999997492615,
+        1.4930946758227878e-10,
+        6.22414462134715e-11,
+        3.1296964614713323e-11,
+        5.789356327279037e-12,
+        1.2135150104729438e-12,
+        8.878265476233535e-13
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 6: правильных ответов 144–153",
+        "Решение 5: правильных ответов 134–143",
+        "Решение 7: правильных ответов 154–163",
+        "Решение 4: правильных ответов 124–133",
+        "Решение 1: правильных ответов 94–103",
+        "Решение 3: правильных ответов 114–123",
+        "Решение 2: правильных ответов 104–113"
+      ],
+      "latency_ms": 131.21430401224643
+    },
+    {
+      "id": "bucket-4-225",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        20.625,
+        21.875,
+        20.25,
+        21.25,
+        18.0,
+        18.625,
+        39.25
+      ],
+      "probabilities": [
+        8.152020232425467e-09,
+        2.8453346407332673e-08,
+        5.602796106233113e-09,
+        1.5229978844134567e-08,
+        5.905303649752029e-10,
+        1.1032559671058977e-09,
+        0.9999999408680721
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Решение 4: затронутых клиентов 173–182",
+        "Решение 5: затронутых клиентов 183–192",
+        "Решение 3: затронутых клиентов 163–172",
+        "Решение 7: затронутых клиентов 203–212",
+        "Решение 1: затронутых клиентов 143–152",
+        "Решение 2: затронутых клиентов 153–162",
+        "Решение 6: затронутых клиентов 193–202"
+      ],
+      "latency_ms": 130.97219599876553
+    },
+    {
+      "id": "bucket-0-189",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        22.125,
+        41.5
+      ],
+      "probabilities": [
+        3.850741907939403e-09,
+        0.999999996149258
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 118–127",
+        "Category: value in range 108–117"
+      ],
+      "latency_ms": 100.46884999610484
+    },
+    {
+      "id": "bucket-0-344",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.5,
+        16.625,
+        16.5
+      ],
+      "probabilities": [
+        0.9999999999194709,
+        4.277787868624512e-11,
+        3.7751345439750895e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 115–124",
+        "Категория: значение в диапазоне 135–144",
+        "Категория: значение в диапазоне 125–134"
+      ],
+      "latency_ms": 102.40992897888646
+    },
+    {
+      "id": "bucket-2-53",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        20.5,
+        18.875,
+        40.25,
+        18.625,
+        17.0
+      ],
+      "probabilities": [
+        2.646573629239861e-09,
+        5.211412468848646e-10,
+        0.9999999963465003,
+        4.058652111647409e-10,
+        7.99195986375531e-11
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 2: correct answers 90–99",
+        "Decision 3: correct answers 100–109",
+        "Decision 1: correct answers 80–89",
+        "Decision 5: correct answers 120–129",
+        "Decision 4: correct answers 110–119"
+      ],
+      "latency_ms": 105.4716240032576
+    },
+    {
+      "id": "bucket-5-151",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        37.5,
+        15.6875,
+        15.125
+      ],
+      "probabilities": [
+        0.9999999994718087,
+        3.364740791635924e-10,
+        1.9171715127456787e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 1: violations 115–124",
+        "Decision 2: violations 125–134",
+        "Decision 3: violations 135–144"
+      ],
+      "latency_ms": 100.85683298530057
+    },
+    {
+      "id": "bucket-3-299",
+      "task": "workflow",
+      "language": "en",
+      "scores": [
+        39.5,
+        16.25
+      ],
+      "probabilities": [
+        0.9999999999200804,
+        7.991959892315218e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 2: ready documents 69–78",
+        "Decision 1: ready documents 59–68"
+      ],
+      "latency_ms": 99.26559601444751
+    },
+    {
+      "id": "bucket-5-258",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        18.5,
+        38.0,
+        16.25,
+        16.5,
+        13.5,
+        12.625
+      ],
+      "probabilities": [
+        3.3982678050565433e-09,
+        0.9999999957512096,
+        3.581747915065085e-10,
+        4.599055359111894e-10,
+        2.2897348359169496e-11,
+        9.545034882285775e-12
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 3: violations 156–165",
+        "Decision 1: violations 136–145",
+        "Decision 4: violations 166–175",
+        "Decision 6: violations 186–195",
+        "Decision 2: violations 146–155",
+        "Decision 5: violations 176–185"
+      ],
+      "latency_ms": 107.13042900897563
+    },
+    {
+      "id": "bucket-0-143",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        21.875,
+        38.75,
+        17.75
+      ],
+      "probabilities": [
+        4.6911637982071264e-08,
+        0.999999952330106,
+        7.582560066452055e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 76–85",
+        "Категория: значение в диапазоне 86–95",
+        "Категория: значение в диапазоне 66–75"
+      ],
+      "latency_ms": 101.77332500461489
+    },
+    {
+      "id": "bucket-0-250",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.5,
+        17.625,
+        17.25
+      ],
+      "probabilities": [
+        0.9999999998037981,
+        1.1628233027939488e-10,
+        7.991959891385894e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 115–124",
+        "Категория: значение в диапазоне 135–144",
+        "Категория: значение в диапазоне 125–134"
+      ],
+      "latency_ms": 102.03604196431115
+    },
+    {
+      "id": "bucket-4-140",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        21.75,
+        17.125,
+        39.25
+      ],
+      "probabilities": [
+        2.510999092074684e-08,
+        2.4616968893962017e-10,
+        0.9999999746438395
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 2: затронутых клиентов 76–85",
+        "Решение 1: затронутых клиентов 66–75",
+        "Решение 3: затронутых клиентов 86–95"
+      ],
+      "latency_ms": 101.3122129952535
+    },
+    {
+      "id": "bucket-0-342",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        19.625,
+        16.625,
+        39.0
+      ],
+      "probabilities": [
+        3.85074190720115e-09,
+        1.9171715060082246e-10,
+        0.999999995957541
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 103.4625869942829
+    },
+    {
+      "id": "bucket-5-15",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        21.0,
+        17.125,
+        39.0,
+        17.625,
+        15.9375,
+        13.5625
+      ],
+      "probabilities": [
+        1.5229979498404607e-08,
+        3.1608814031940926e-10,
+        0.9999999838274227,
+        5.211412403606569e-10,
+        9.640143619134326e-11,
+        8.966730346512163e-12
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 2: violations 146–155",
+        "Decision 5: violations 176–185",
+        "Decision 1: violations 136–145",
+        "Decision 3: violations 156–165",
+        "Decision 4: violations 166–175",
+        "Decision 6: violations 186–195"
+      ],
+      "latency_ms": 108.07701799785718
+    },
+    {
+      "id": "bucket-5-190",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        20.625,
+        37.75,
+        19.375,
+        19.875,
+        17.625,
+        16.25,
+        15.3125
+      ],
+      "probabilities": [
+        3.653481969964307e-08,
+        0.9999999332809839,
+        1.0467401096369909e-08,
+        1.725782683653491e-08,
+        1.8189615661937117e-09,
+        4.5990550718078667e-10,
+        1.8010158435164307e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 1: нарушений 45–54",
+        "Решение 6: нарушений 95–104",
+        "Решение 4: нарушений 75–84",
+        "Решение 7: нарушений 105–114",
+        "Решение 5: нарушений 85–94",
+        "Решение 3: нарушений 65–74",
+        "Решение 2: нарушений 55–64"
+      ],
+      "latency_ms": 109.09926000749692
+    },
+    {
+      "id": "bucket-0-38",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        16.875,
+        37.5,
+        15.9375
+      ],
+      "probabilities": [
+        1.103256030649728e-09,
+        0.9999999984647028,
+        4.320412692675445e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 76–85",
+        "Категория: значение в диапазоне 86–95",
+        "Категория: значение в диапазоне 66–75"
+      ],
+      "latency_ms": 104.46503199636936
+    },
+    {
+      "id": "bucket-1-50",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        38.25,
+        17.75,
+        16.5,
+        16.25,
+        15.8125
+      ],
+      "probabilities": [
+        0.999999997932624,
+        1.2501528638022064e-09,
+        3.581747922878361e-10,
+        2.7894680871020453e-10,
+        1.8010159599550665e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Agent for ticket code 149–158",
+        "Agent for ticket code 169–178",
+        "Agent for ticket code 129–138",
+        "Agent for ticket code 159–168",
+        "Agent for ticket code 139–148"
+      ],
+      "latency_ms": 107.6637870282866
+    },
+    {
+      "id": "bucket-4-102",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        22.0,
+        22.875,
+        24.25,
+        20.375,
+        37.0
+      ],
+      "probabilities": [
+        3.0590109619999063e-07,
+        7.3381858207161e-07,
+        2.902308792798008e-06,
+        6.023549729953946e-08,
+        0.9999959977360316
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 5: affected clients 169–178",
+        "Decision 2: affected clients 139–148",
+        "Decision 1: affected clients 129–138",
+        "Decision 4: affected clients 159–168",
+        "Decision 3: affected clients 149–158"
+      ],
+      "latency_ms": 108.01468999125063
+    },
+    {
+      "id": "bucket-0-165",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        38.75,
+        15.3125,
+        15.125,
+        14.3125
+      ],
+      "probabilities": [
+        0.9999999998544424,
+        6.625567461624325e-11,
+        5.492788350155167e-11,
+        2.4374100552260477e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 83–92",
+        "Категория: значение в диапазоне 73–82",
+        "Категория: значение в диапазоне 103–112",
+        "Категория: значение в диапазоне 93–102"
+      ],
+      "latency_ms": 117.6637249882333
+    },
+    {
+      "id": "bucket-0-232",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        18.25,
+        38.5,
+        17.0,
+        16.5
+      ],
+      "probabilities": [
+        1.6052280514228283e-09,
+        0.9999999976559197,
+        4.5990553678717617e-10,
+        2.7894680863301875e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 93–102",
+        "Category: value in range 83–92",
+        "Category: value in range 103–112",
+        "Category: value in range 73–82"
+      ],
+      "latency_ms": 109.56881701713428
+    },
+    {
+      "id": "bucket-0-152",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        19.625,
+        20.75,
+        19.625,
+        40.75
+      ],
+      "probabilities": [
+        6.691586068544929e-10,
+        2.061153615431726e-09,
+        6.691586068544929e-10,
+        0.9999999966005291
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 142–151",
+        "Категория: значение в диапазоне 132–141",
+        "Категория: значение в диапазоне 152–161",
+        "Категория: значение в диапазоне 122–131"
+      ],
+      "latency_ms": 108.90294902492315
+    },
+    {
+      "id": "bucket-0-160",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        21.0,
+        19.25,
+        39.5,
+        17.75
+      ],
+      "probabilities": [
+        9.237449558503285e-09,
+        1.6052280372056892e-09,
+        0.9999999887991476,
+        3.581747890164551e-10
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 142–151",
+        "Category: value in range 152–161",
+        "Category: value in range 122–131",
+        "Category: value in range 132–141"
+      ],
+      "latency_ms": 104.70650799106807
+    },
+    {
+      "id": "bucket-0-396",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        16.625,
+        16.75,
+        38.0
+      ],
+      "probabilities": [
+        5.211412482095161e-10,
+        5.905303992379281e-10,
+        0.9999999988883284
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 66–75",
+        "Category: value in range 76–85",
+        "Category: value in range 86–95"
+      ],
+      "latency_ms": 102.94451902154833
+    },
+    {
+      "id": "bucket-0-294",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        41.25,
+        17.75,
+        17.5
+      ],
+      "probabilities": [
+        0.9999999998892848,
+        6.224144622218675e-11,
+        4.847368705733578e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 115–124",
+        "Категория: значение в диапазоне 135–144",
+        "Категория: значение в диапазоне 125–134"
+      ],
+      "latency_ms": 104.05818303115666
+    },
+    {
+      "id": "bucket-1-266",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        39.5,
+        17.75,
+        17.125,
+        16.375,
+        16.125
+      ],
+      "probabilities": [
+        0.9999999992890187,
+        3.5817479277366253e-10,
+        1.917171512395239e-10,
+        9.056076983234166e-11,
+        7.052879846097694e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Agent for ticket code 149–158",
+        "Agent for ticket code 129–138",
+        "Agent for ticket code 169–178",
+        "Agent for ticket code 159–168",
+        "Agent for ticket code 139–148"
+      ],
+      "latency_ms": 109.70959300175309
+    },
+    {
+      "id": "bucket-4-254",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        18.125,
+        16.5,
+        39.0
+      ],
+      "probabilities": [
+        8.592166610337869e-10,
+        1.6918979208751718e-10,
+        0.9999999989715935
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 3: затронутых клиентов 135–144",
+        "Решение 2: затронутых клиентов 125–134",
+        "Решение 1: затронутых клиентов 115–124"
+      ],
+      "latency_ms": 103.05188095662743
+    },
+    {
+      "id": "bucket-0-238",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        40.25,
+        16.625
+      ],
+      "probabilities": [
+        0.9999999999450722,
+        5.4927883506529765e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 108–117",
+        "Category: value in range 118–127"
+      ],
+      "latency_ms": 103.5371990292333
+    },
+    {
+      "id": "bucket-1-245",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        19.75,
+        20.375,
+        20.25,
+        42.75,
+        19.0,
+        17.375,
+        17.125
+      ],
+      "probabilities": [
+        1.0261879626273582e-10,
+        1.9171715127441704e-10,
+        1.6918979217201536e-10,
+        0.999999999471022,
+        4.847368703706104e-11,
+        9.545034917791515e-12,
+        7.433680668419935e-12
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Agent for ticket code 105–114",
+        "Agent for ticket code 55–64",
+        "Agent for ticket code 85–94",
+        "Agent for ticket code 95–104",
+        "Agent for ticket code 45–54",
+        "Agent for ticket code 65–74",
+        "Agent for ticket code 75–84"
+      ],
+      "latency_ms": 108.48395701032132
+    },
+    {
+      "id": "bucket-3-168",
+      "task": "workflow",
+      "language": "en",
+      "scores": [
+        37.25,
+        16.125
+      ],
+      "probabilities": [
+        0.9999999993308415,
+        6.69158608681505e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 2: ready documents 69–78",
+        "Decision 1: ready documents 59–68"
+      ],
+      "latency_ms": 103.29588199965656
+    },
+    {
+      "id": "bucket-3-251",
+      "task": "workflow",
+      "language": "en",
+      "scores": [
+        18.375,
+        18.875,
+        18.125,
+        18.625,
+        16.625,
+        18.375,
+        19.125,
+        42.5
+      ],
+      "probabilities": [
+        3.33154454127822e-11,
+        5.492788349490302e-11,
+        2.5946094975847418e-11,
+        4.2777878678285365e-11,
+        5.7893563271872055e-12,
+        3.33154454127822e-11,
+        7.052879849231857e-11,
+        0.9999999997333993
+      ],
+      "target": 7,
+      "semantic_labels": [
+        "Decision 3: ready documents 72–81",
+        "Decision 4: ready documents 82–91",
+        "Decision 1: ready documents 52–61",
+        "Decision 2: ready documents 62–71",
+        "Decision 5: ready documents 92–101",
+        "Decision 6: ready documents 102–111",
+        "Decision 8: ready documents 122–131",
+        "Decision 7: ready documents 112–121"
+      ],
+      "latency_ms": 111.29153298679739
+    },
+    {
+      "id": "bucket-5-93",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        18.5,
+        36.25,
+        15.75,
+        15.25,
+        12.875,
+        11.75
+      ],
+      "probabilities": [
+        1.9555680664323028e-08,
+        0.9999999783424844,
+        1.2501528393115375e-09,
+        7.582560263692486e-10,
+        7.052879698364306e-11,
+        2.289734796055585e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 5: нарушений 176–185",
+        "Решение 1: нарушений 136–145",
+        "Решение 6: нарушений 186–195",
+        "Решение 4: нарушений 166–175",
+        "Решение 2: нарушений 146–155",
+        "Решение 3: нарушений 156–165"
+      ],
+      "latency_ms": 109.05361402546987
+    },
+    {
+      "id": "bucket-5-267",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        18.5,
+        22.5,
+        19.375,
+        18.0,
+        39.75,
+        19.375,
+        16.625
+      ],
+      "probabilities": [
+        5.905303785677826e-10,
+        3.2241866208173265e-08,
+        1.4166087354832912e-09,
+        3.5817478009306843e-10,
+        0.9999999638856505,
+        1.4166087354832912e-09,
+        9.056076662618538e-11
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 3: violations 65–74",
+        "Decision 7: violations 105–114",
+        "Decision 5: violations 85–94",
+        "Decision 2: violations 55–64",
+        "Decision 6: violations 95–104",
+        "Decision 1: violations 45–54",
+        "Decision 4: violations 75–84"
+      ],
+      "latency_ms": 109.18341903015971
+    },
+    {
+      "id": "bucket-3-247",
+      "task": "workflow",
+      "language": "en",
+      "scores": [
+        20.75,
+        20.375,
+        19.0,
+        19.125,
+        39.0,
+        20.5,
+        17.75,
+        17.375
+      ],
+      "probabilities": [
+        1.1861119740430368e-08,
+        8.15202043205375e-09,
+        2.061153551032505e-09,
+        2.335592957885679e-09,
+        0.9999999653562684,
+        9.237449341950868e-09,
+        5.905303794362273e-10,
+        4.058651985868838e-10
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 5: ready documents 92–101",
+        "Decision 8: ready documents 122–131",
+        "Decision 4: ready documents 82–91",
+        "Decision 6: ready documents 102–111",
+        "Decision 7: ready documents 112–121",
+        "Decision 1: ready documents 52–61",
+        "Decision 2: ready documents 62–71",
+        "Decision 3: ready documents 72–81"
+      ],
+      "latency_ms": 107.73242701543495
+    },
+    {
+      "id": "bucket-3-259",
+      "task": "verification",
+      "language": "en",
+      "scores": [
+        21.625,
+        17.5,
+        17.0,
+        40.5,
+        15.0625
+      ],
+      "probabilities": [
+        6.348800074632825e-09,
+        1.0261879564767477e-10,
+        6.224144582310009e-11,
+        0.9999999934773729,
+        8.966730433040665e-12
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Decision 3: matching records 100–109",
+        "Decision 4: matching records 110–119",
+        "Decision 2: matching records 90–99",
+        "Decision 1: matching records 80–89",
+        "Decision 5: matching records 120–129"
+      ],
+      "latency_ms": 104.60029699606821
+    },
+    {
+      "id": "bucket-4-264",
+      "task": "risk",
+      "language": "ru",
+      "scores": [
+        18.125,
+        16.625,
+        37.25,
+        16.125
+      ],
+      "probabilities": [
+        4.944450468727438e-09,
+        1.1032560249331321e-09,
+        0.9999999932831349,
+        6.691586046346301e-10
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 2: баллов риска 34–43",
+        "Решение 1: баллов риска 24–33",
+        "Решение 3: баллов риска 44–53",
+        "Решение 4: баллов риска 54–63"
+      ],
+      "latency_ms": 102.66465897439048
+    },
+    {
+      "id": "bucket-5-268",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        39.75,
+        16.75,
+        15.875,
+        15.625,
+        14.875,
+        12.5625,
+        12.375
+      ],
+      "probabilities": [
+        0.9999999998027009,
+        1.0261879629677231e-10,
+        4.277787868124995e-11,
+        3.3315445415091014e-11,
+        1.5737102103757985e-11,
+        1.5581841170626195e-12,
+        1.2917800045311292e-12
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 6: нарушений 95–104",
+        "Решение 7: нарушений 105–114",
+        "Решение 3: нарушений 65–74",
+        "Решение 5: нарушений 85–94",
+        "Решение 1: нарушений 45–54",
+        "Решение 2: нарушений 55–64",
+        "Решение 4: нарушений 75–84"
+      ],
+      "latency_ms": 108.02063200389966
+    },
+    {
+      "id": "bucket-4-150",
+      "task": "risk",
+      "language": "ru",
+      "scores": [
+        19.25,
+        20.125,
+        18.75,
+        38.5
+      ],
+      "probabilities": [
+        4.3634621766815635e-09,
+        1.0467401611801297e-08,
+        2.646573592653792e-09,
+        0.9999999825225626
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Решение 1: баллов риска 24–33",
+        "Решение 4: баллов риска 54–63",
+        "Решение 2: баллов риска 34–43",
+        "Решение 3: баллов риска 44–53"
+      ],
+      "latency_ms": 103.66424900712445
+    },
+    {
+      "id": "bucket-5-12",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        19.0,
+        37.75,
+        16.5
+      ],
+      "probabilities": [
+        7.19413297432148e-09,
+        0.9999999922153368,
+        5.905303952973236e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 2: violations 125–134",
+        "Decision 1: violations 115–124",
+        "Decision 3: violations 135–144"
+      ],
+      "latency_ms": 101.65085404878482
+    },
+    {
+      "id": "bucket-0-113",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        39.5,
+        17.0,
+        16.5,
+        15.25
+      ],
+      "probabilities": [
+        0.9999999996987907,
+        1.691897922105515e-10,
+        1.0261879628610917e-10,
+        2.9400777383988937e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 122–131",
+        "Category: value in range 132–141",
+        "Category: value in range 152–161",
+        "Category: value in range 142–151"
+      ],
+      "latency_ms": 106.2069340259768
+    },
+    {
+      "id": "bucket-4-5",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        37.25,
+        16.125
+      ],
+      "probabilities": [
+        0.9999999993308415,
+        6.69158608681505e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 2: affected clients 167–176",
+        "Decision 1: affected clients 157–166"
+      ],
+      "latency_ms": 99.9661689857021
+    },
+    {
+      "id": "bucket-2-201",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        41.25,
+        18.625,
+        17.625,
+        17.125,
+        15.5,
+        13.5,
+        13.0625
+      ],
+      "probabilities": [
+        0.999999999754426,
+        1.493094675830499e-10,
+        5.4927883496057975e-11,
+        3.3315445413482716e-11,
+        6.560200166542764e-12,
+        8.878265476279387e-13,
+        5.732239021995413e-13
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 6: правильных ответов 144–153",
+        "Решение 5: правильных ответов 134–143",
+        "Решение 1: правильных ответов 94–103",
+        "Решение 4: правильных ответов 124–133",
+        "Решение 7: правильных ответов 154–163",
+        "Решение 3: правильных ответов 114–123",
+        "Решение 2: правильных ответов 104–113"
+      ],
+      "latency_ms": 128.06792801711708
+    },
+    {
+      "id": "bucket-4-230",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        20.125,
+        21.625,
+        19.0,
+        41.25,
+        19.25
+      ],
+      "probabilities": [
+        6.691586063426941e-10,
+        2.998960812368704e-09,
+        2.172439926032303e-10,
+        0.9999999958356898,
+        2.789468081252714e-10
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Decision 5: affected clients 169–178",
+        "Decision 2: affected clients 139–148",
+        "Decision 1: affected clients 129–138",
+        "Decision 3: affected clients 149–158",
+        "Decision 4: affected clients 159–168"
+      ],
+      "latency_ms": 108.31583896651864
+    },
+    {
+      "id": "bucket-0-236",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        16.75,
+        16.875,
+        38.0
+      ],
+      "probabilities": [
+        5.905303991505193e-10,
+        6.691586082863464e-10,
+        0.999999998740311
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 66–75",
+        "Category: value in range 76–85",
+        "Category: value in range 86–95"
+      ],
+      "latency_ms": 100.66616302356124
+    },
+    {
+      "id": "bucket-5-69",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        39.25,
+        16.25,
+        15.4375
+      ],
+      "probabilities": [
+        0.9999999998518443,
+        1.0261879630181534e-10,
+        4.553681482268883e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 1: violations 115–124",
+        "Decision 2: violations 125–134",
+        "Decision 3: violations 135–144"
+      ],
+      "latency_ms": 99.94695300702006
+    },
+    {
+      "id": "bucket-1-251",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        29.125,
+        18.375,
+        18.75,
+        17.5,
+        38.5
+      ],
+      "probabilities": [
+        8.481104128058313e-05,
+        1.8188074100172046e-09,
+        2.6463491664189998e-09,
+        7.581917303460088e-10,
+        0.9999151837353711
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Агент для заявок с кодом 159–168",
+        "Агент для заявок с кодом 169–178",
+        "Агент для заявок с кодом 129–138",
+        "Агент для заявок с кодом 139–148",
+        "Агент для заявок с кодом 149–158"
+      ],
+      "latency_ms": 107.46282699983567
+    },
+    {
+      "id": "bucket-5-251",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        19.125,
+        25.875,
+        18.75,
+        17.625,
+        38.0,
+        16.25,
+        14.6875
+      ],
+      "probabilities": [
+        6.348765611705709e-09,
+        5.422218901901963e-06,
+        4.363438538482143e-09,
+        1.4166010876847388e-09,
+        0.999994565219043,
+        3.581728464267736e-10,
+        7.507710717937315e-11
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 4: violations 75–84",
+        "Decision 5: violations 85–94",
+        "Decision 3: violations 65–74",
+        "Decision 2: violations 55–64",
+        "Decision 6: violations 95–104",
+        "Decision 7: violations 105–114",
+        "Decision 1: violations 45–54"
+      ],
+      "latency_ms": 104.77314400486648
+    },
+    {
+      "id": "bucket-2-131",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        38.25,
+        15.9375,
+        15.8125,
+        15.0625,
+        14.5625
+      ],
+      "probabilities": [
+        0.9999999994791426,
+        2.0408184521279124e-10,
+        1.8010159627403712e-10,
+        8.507397017512088e-11,
+        5.159997125468898e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 1: правильных ответов 80–89",
+        "Решение 5: правильных ответов 120–129",
+        "Решение 2: правильных ответов 90–99",
+        "Решение 3: правильных ответов 100–109",
+        "Решение 4: правильных ответов 110–119"
+      ],
+      "latency_ms": 106.77681100787595
+    },
+    {
+      "id": "bucket-0-325",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        38.75,
+        15.4375,
+        15.25,
+        14.4375
+      ],
+      "probabilities": [
+        0.9999999998350615,
+        7.507751519683994e-11,
+        6.224144621881182e-11,
+        2.7619474335153943e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 83–92",
+        "Категория: значение в диапазоне 73–82",
+        "Категория: значение в диапазоне 103–112",
+        "Категория: значение в диапазоне 93–102"
+      ],
+      "latency_ms": 106.10266699222848
+    },
+    {
+      "id": "bucket-0-383",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        23.125,
+        38.5,
+        18.875,
+        18.375
+      ],
+      "probabilities": [
+        2.1024334002297704e-07,
+        0.9999997849387386,
+        2.9989601798970095e-09,
+        1.8189612963648509e-09
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 152–161",
+        "Категория: значение в диапазоне 122–131",
+        "Категория: значение в диапазоне 132–141",
+        "Категория: значение в диапазоне 142–151"
+      ],
+      "latency_ms": 105.73950997786596
+    },
+    {
+      "id": "bucket-1-260",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        18.75,
+        19.875,
+        19.75,
+        39.5,
+        16.375,
+        16.25,
+        14.75
+      ],
+      "probabilities": [
+        9.7362002467307e-10,
+        2.9989608044419797e-09,
+        2.646573620892654e-09,
+        0.9999999931925327,
+        9.05607692802392e-11,
+        7.991959838548927e-11,
+        1.7832472786752416e-11
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Agent for ticket code 55–64",
+        "Agent for ticket code 45–54",
+        "Agent for ticket code 85–94",
+        "Agent for ticket code 95–104",
+        "Agent for ticket code 65–74",
+        "Agent for ticket code 105–114",
+        "Agent for ticket code 75–84"
+      ],
+      "latency_ms": 107.09075297927484
+    },
+    {
+      "id": "bucket-1-75",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        28.0,
+        19.25,
+        19.5,
+        18.0,
+        38.5
+      ],
+      "probabilities": [
+        2.7535690805740332e-05,
+        4.363342053055221e-09,
+        5.602642097825376e-09,
+        1.250118428542111e-09,
+        0.9999724530930916
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Агент для заявок с кодом 159–168",
+        "Агент для заявок с кодом 169–178",
+        "Агент для заявок с кодом 129–138",
+        "Агент для заявок с кодом 139–148",
+        "Агент для заявок с кодом 149–158"
+      ],
+      "latency_ms": 107.06678894348443
+    },
+    {
+      "id": "bucket-1-21",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        18.875,
+        16.75,
+        22.125,
+        16.875,
+        25.0,
+        17.0,
+        31.375
+      ],
+      "probabilities": [
+        3.7199387606053276e-06,
+        4.4428332794951637e-07,
+        9.593848510715326e-05,
+        5.03438965789376e-07,
+        0.0017005503380948229,
+        5.704710852977942e-07,
+        0.9981982730446584
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Агент для заявок с кодом 45–54",
+        "Агент для заявок с кодом 55–64",
+        "Агент для заявок с кодом 105–114",
+        "Агент для заявок с кодом 75–84",
+        "Агент для заявок с кодом 85–94",
+        "Агент для заявок с кодом 65–74",
+        "Агент для заявок с кодом 95–104"
+      ],
+      "latency_ms": 104.77891500340775
+    },
+    {
+      "id": "bucket-0-181",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        20.5,
+        18.875,
+        18.75,
+        43.25
+      ],
+      "probabilities": [
+        1.3176514267715673e-10,
+        2.594609497807858e-11,
+        2.289734845232007e-11,
+        0.9999999998193914
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Category: value in range 132–141",
+        "Category: value in range 152–161",
+        "Category: value in range 142–151",
+        "Category: value in range 122–131"
+      ],
+      "latency_ms": 101.85249499045312
+    },
+    {
+      "id": "bucket-5-299",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        19.75,
+        20.375,
+        21.375,
+        21.625,
+        17.875,
+        18.375,
+        39.75
+      ],
+      "probabilities": [
+        2.0611535592499037e-09,
+        3.850741804715669e-09,
+        1.0467401473846193e-08,
+        1.3440409539093235e-08,
+        3.160881357410752e-10,
+        5.211412328122602e-10,
+        0.9999999693430641
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Decision 2: violations 55–64",
+        "Decision 4: violations 75–84",
+        "Decision 7: violations 105–114",
+        "Decision 5: violations 85–94",
+        "Decision 3: violations 65–74",
+        "Decision 1: violations 45–54",
+        "Decision 6: violations 95–104"
+      ],
+      "latency_ms": 105.34806997748092
+    },
+    {
+      "id": "bucket-0-379",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        38.75,
+        15.875,
+        15.75
+      ],
+      "probabilities": [
+        0.9999999997810989,
+        1.1628233027675536e-10,
+        1.0261879629455553e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 86–95",
+        "Category: value in range 76–85",
+        "Category: value in range 66–75"
+      ],
+      "latency_ms": 99.62589701171964
+    },
+    {
+      "id": "bucket-0-223",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        23.0,
+        38.5,
+        19.0,
+        18.375
+      ],
+      "probabilities": [
+        1.8553910086883324e-07,
+        0.9999998092436706,
+        3.3982671712539753e-09,
+        1.818961340574591e-09
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 152–161",
+        "Категория: значение в диапазоне 122–131",
+        "Категория: значение в диапазоне 132–141",
+        "Категория: значение в диапазоне 142–151"
+      ],
+      "latency_ms": 105.99235800327733
+    },
+    {
+      "id": "bucket-2-206",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        19.625,
+        19.375,
+        22.375,
+        19.5,
+        19.625,
+        19.75,
+        39.5
+      ],
+      "probabilities": [
+        2.3355929273151874e-09,
+        1.8189616007291026e-09,
+        3.653482039330494e-08,
+        2.061153524054141e-09,
+        2.3355929273151874e-09,
+        2.6465735125810252e-09,
+        0.9999999522673052
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Decision 3: correct answers 163–172",
+        "Decision 1: correct answers 143–152",
+        "Decision 5: correct answers 183–192",
+        "Decision 7: correct answers 203–212",
+        "Decision 2: correct answers 153–162",
+        "Decision 4: correct answers 173–182",
+        "Decision 6: correct answers 193–202"
+      ],
+      "latency_ms": 105.70525604998693
+    },
+    {
+      "id": "bucket-2-195",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        39.25,
+        16.125,
+        15.875,
+        16.125,
+        14.375,
+        12.6875,
+        13.0
+      ],
+      "probabilities": [
+        0.9999999997257227,
+        9.056076987188991e-11,
+        7.052879849177715e-11,
+        9.056076987188991e-11,
+        1.5737102102546572e-11,
+        2.9110711774132464e-12,
+        3.978962534745901e-12
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 6: correct answers 144–153",
+        "Decision 7: correct answers 154–163",
+        "Decision 1: correct answers 94–103",
+        "Decision 5: correct answers 134–143",
+        "Decision 3: correct answers 114–123",
+        "Decision 2: correct answers 104–113",
+        "Decision 4: correct answers 124–133"
+      ],
+      "latency_ms": 106.02757503511384
+    },
+    {
+      "id": "bucket-0-148",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        19.625,
+        39.75
+      ],
+      "probabilities": [
+        1.8189616842444243e-09,
+        0.9999999981810384
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 118–127",
+        "Категория: значение в диапазоне 108–117"
+      ],
+      "latency_ms": 99.27708801114932
+    },
+    {
+      "id": "bucket-5-30",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        20.125,
+        38.75,
+        19.0,
+        19.875,
+        17.375,
+        16.5,
+        15.375
+      ],
+      "probabilities": [
+        8.152020568089972e-09,
+        0.9999999820436919,
+        2.6465735913864254e-09,
+        6.348800002042669e-09,
+        5.211412394310812e-10,
+        2.1724398960700159e-10,
+        7.052879724468477e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 1: нарушений 45–54",
+        "Решение 6: нарушений 95–104",
+        "Решение 4: нарушений 75–84",
+        "Решение 7: нарушений 105–114",
+        "Решение 5: нарушений 85–94",
+        "Решение 3: нарушений 65–74",
+        "Решение 2: нарушений 55–64"
+      ],
+      "latency_ms": 105.7762709679082
+    },
+    {
+      "id": "bucket-3-234",
+      "task": "verification",
+      "language": "en",
+      "scores": [
+        18.5,
+        37.25,
+        16.875,
+        17.25,
+        15.1875,
+        16.125
+      ],
+      "probabilities": [
+        7.194132946851136e-09,
+        0.9999999883968996,
+        1.4166087702061423e-09,
+        2.0611535985227857e-09,
+        2.620462734336969e-10,
+        6.691586013649637e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 4: matching records 117–126",
+        "Decision 6: matching records 137–146",
+        "Decision 2: matching records 97–106",
+        "Decision 3: matching records 107–116",
+        "Decision 1: matching records 87–96",
+        "Decision 5: matching records 127–136"
+      ],
+      "latency_ms": 106.05146997841075
+    },
+    {
+      "id": "bucket-5-139",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        19.75,
+        20.125,
+        21.25,
+        21.125,
+        17.625,
+        18.125,
+        40.0
+      ],
+      "probabilities": [
+        1.605228026305056e-09,
+        2.3355929967783767e-09,
+        7.194132900891713e-09,
+        6.348800001818867e-09,
+        1.917171479265407e-10,
+        3.160881397444506e-10,
+        0.9999999820084408
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Decision 2: violations 55–64",
+        "Decision 4: violations 75–84",
+        "Decision 7: violations 105–114",
+        "Decision 5: violations 85–94",
+        "Decision 3: violations 65–74",
+        "Decision 1: violations 45–54",
+        "Decision 6: violations 95–104"
+      ],
+      "latency_ms": 105.02707399427891
+    },
+    {
+      "id": "bucket-4-243",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        20.125,
+        16.5,
+        39.5
+      ],
+      "probabilities": [
+        3.850741907544245e-09,
+        1.0261879591132979e-10,
+        0.9999999960466393
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 3: affected clients 135–144",
+        "Decision 2: affected clients 125–134",
+        "Decision 1: affected clients 115–124"
+      ],
+      "latency_ms": 96.94228495936841
+    },
+    {
+      "id": "bucket-0-164",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        20.5,
+        17.125,
+        39.75
+      ],
+      "probabilities": [
+        4.363462233252393e-09,
+        1.4930946694591687e-10,
+        0.9999999954872283
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 98.15298300236464
+    },
+    {
+      "id": "bucket-2-5",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        35.0,
+        20.125,
+        19.375,
+        20.0,
+        19.125,
+        35.75,
+        17.75
+      ],
+      "probabilities": [
+        0.32082120036509404,
+        1.112071321388642e-07,
+        5.2530529648649785e-08,
+        9.813994965786347e-08,
+        4.0910817625524103e-08,
+        0.6791784865026023,
+        1.0343874592479212e-08
+      ],
+      "target": 5,
+      "semantic_labels": [
+        "Решение 7: правильных ответов 154–163",
+        "Решение 2: правильных ответов 104–113",
+        "Решение 1: правильных ответов 94–103",
+        "Решение 5: правильных ответов 134–143",
+        "Решение 4: правильных ответов 124–133",
+        "Решение 6: правильных ответов 144–153",
+        "Решение 3: правильных ответов 114–123"
+      ],
+      "latency_ms": 127.67331197392195
+    },
+    {
+      "id": "bucket-5-71",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        24.0,
+        17.25,
+        39.75
+      ],
+      "probabilities": [
+        1.444980037068008e-07,
+        1.6918976778530063e-10,
+        0.9999998553328066
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 2: нарушений 125–134",
+        "Решение 3: нарушений 135–144",
+        "Решение 1: нарушений 115–124"
+      ],
+      "latency_ms": 101.35103698121384
+    },
+    {
+      "id": "bucket-2-223",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        18.25,
+        37.5,
+        16.875,
+        16.125,
+        14.1875,
+        14.9375,
+        14.0
+      ],
+      "probabilities": [
+        4.363462225523191e-09,
+        0.9999999937158823,
+        1.1032560254105632e-09,
+        5.211412455139412e-10,
+        7.507751473742717e-11,
+        1.5893909994637168e-10,
+        6.224144583794525e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 2: correct answers 153–162",
+        "Decision 6: correct answers 193–202",
+        "Decision 5: correct answers 183–192",
+        "Decision 1: correct answers 143–152",
+        "Decision 3: correct answers 163–172",
+        "Decision 4: correct answers 173–182",
+        "Decision 7: correct answers 203–212"
+      ],
+      "latency_ms": 104.33985595591366
+    },
+    {
+      "id": "bucket-2-361",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        19.875,
+        20.375,
+        23.125,
+        21.0,
+        21.375,
+        20.625,
+        39.5
+      ],
+      "probabilities": [
+        2.998960482033269e-09,
+        4.94444993671736e-09,
+        7.734421022986717e-08,
+        9.237448605998215e-09,
+        1.3440408414704276e-08,
+        6.348799390285186e-09,
+        0.9999998856857231
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Decision 2: correct answers 104–113",
+        "Decision 3: correct answers 114–123",
+        "Decision 4: correct answers 124–133",
+        "Decision 1: correct answers 94–103",
+        "Decision 7: correct answers 154–163",
+        "Decision 5: correct answers 134–143",
+        "Decision 6: correct answers 144–153"
+      ],
+      "latency_ms": 104.1388749727048
+    },
+    {
+      "id": "bucket-3-202",
+      "task": "workflow",
+      "language": "ru",
+      "scores": [
+        40.5,
+        17.875
+      ],
+      "probabilities": [
+        0.9999999998506905,
+        1.493094675974231e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 2: готовых документов 69–78",
+        "Решение 1: готовых документов 59–68"
+      ],
+      "latency_ms": 98.12938800314441
+    },
+    {
+      "id": "bucket-5-140",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        25.0,
+        18.625,
+        18.625,
+        18.5,
+        40.0,
+        17.0
+      ],
+      "probabilities": [
+        3.059022264347109e-07,
+        5.21141088534255e-10,
+        5.21141088534255e-10,
+        4.5990539644104435e-10,
+        0.9999996924929673,
+        1.0261876476101734e-10
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 5: violations 176–185",
+        "Decision 4: violations 166–175",
+        "Decision 3: violations 156–165",
+        "Decision 6: violations 186–195",
+        "Decision 1: violations 136–145",
+        "Decision 2: violations 146–155"
+      ],
+      "latency_ms": 108.90196700347587
+    },
+    {
+      "id": "bucket-3-245",
+      "task": "verification",
+      "language": "ru",
+      "scores": [
+        20.25,
+        18.0,
+        17.5,
+        18.0,
+        37.5
+      ],
+      "probabilities": [
+        3.2241866047440934e-08,
+        3.398267679827776e-09,
+        2.061153537726061e-09,
+        3.398267679827776e-09,
+        0.999999958900445
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 5: совпавших записей 120–129",
+        "Решение 4: совпавших записей 110–119",
+        "Решение 3: совпавших записей 100–109",
+        "Решение 2: совпавших записей 90–99",
+        "Решение 1: совпавших записей 80–89"
+      ],
+      "latency_ms": 106.51672899257392
+    },
+    {
+      "id": "bucket-2-365",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        20.125,
+        18.75,
+        41.5,
+        19.0,
+        17.625
+      ],
+      "probabilities": [
+        5.211412483381325e-10,
+        1.3176514258699443e-10,
+        0.999999999135126,
+        1.691897921151852e-10,
+        4.2777878652692507e-11
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 2: correct answers 90–99",
+        "Decision 3: correct answers 100–109",
+        "Decision 1: correct answers 80–89",
+        "Decision 5: correct answers 120–129",
+        "Decision 4: correct answers 110–119"
+      ],
+      "latency_ms": 106.66044102981687
+    },
+    {
+      "id": "bucket-1-250",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        39.75,
+        19.625,
+        18.25,
+        17.375,
+        18.375
+      ],
+      "probabilities": [
+        0.9999999970082745,
+        1.8189616821112118e-09,
+        4.5990553648932053e-10,
+        1.917171508022661e-10,
+        5.211412472297425e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Агент для заявок с кодом 149–158",
+        "Агент для заявок с кодом 169–178",
+        "Агент для заявок с кодом 139–148",
+        "Агент для заявок с кодом 129–138",
+        "Агент для заявок с кодом 159–168"
+      ],
+      "latency_ms": 105.6049260077998
+    },
+    {
+      "id": "bucket-4-172",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        21.25,
+        18.0,
+        20.125,
+        17.125,
+        33.5
+      ],
+      "probabilities": [
+        4.785085803380697e-06,
+        1.8553791143290565e-07,
+        1.5534899125889546e-06,
+        7.734370848685326e-08,
+        0.999993398542664
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 4: затронутых клиентов 159–168",
+        "Решение 5: затронутых клиентов 169–178",
+        "Решение 2: затронутых клиентов 139–148",
+        "Решение 1: затронутых клиентов 129–138",
+        "Решение 3: затронутых клиентов 149–158"
+      ],
+      "latency_ms": 103.87876501772553
+    },
+    {
+      "id": "bucket-4-39",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        27.375,
+        32.25
+      ],
+      "probabilities": [
+        0.007577241267860811,
+        0.9924227587321393
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Критический приоритет",
+        "Низкий приоритет"
+      ],
+      "latency_ms": 75.66692802356556
+    },
+    {
+      "id": "bucket-0-55",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.0,
+        18.5
+      ],
+      "probabilities": [
+        0.9999999995400946,
+        4.599055376537186e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 108–117",
+        "Категория: значение в диапазоне 118–127"
+      ],
+      "latency_ms": 100.4860220127739
+    },
+    {
+      "id": "bucket-0-63",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        22.875,
+        38.0,
+        19.125,
+        18.75
+      ],
+      "probabilities": [
+        2.699577745672224e-07,
+        0.9999997193299661,
+        6.348798334125736e-09,
+        4.363461028250603e-09
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 152–161",
+        "Категория: значение в диапазоне 122–131",
+        "Категория: значение в диапазоне 132–141",
+        "Категория: значение в диапазоне 142–151"
+      ],
+      "latency_ms": 104.10779702942818
+    },
+    {
+      "id": "bucket-4-148",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        19.375,
+        41.25
+      ],
+      "probabilities": [
+        3.1608814533145753e-10,
+        0.999999999683912
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 1: затронутых клиентов 157–166",
+        "Решение 2: затронутых клиентов 167–176"
+      ],
+      "latency_ms": 100.48206499777734
+    },
+    {
+      "id": "bucket-0-336",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        20.25,
+        38.75,
+        17.625
+      ],
+      "probabilities": [
+        9.2374495704588e-09,
+        0.9999999900933919,
+        6.69158602500186e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 66–75",
+        "Категория: значение в диапазоне 86–95",
+        "Категория: значение в диапазоне 76–85"
+      ],
+      "latency_ms": 100.8053160039708
+    },
+    {
+      "id": "bucket-3-131",
+      "task": "workflow",
+      "language": "ru",
+      "scores": [
+        40.75,
+        17.625
+      ],
+      "probabilities": [
+        0.9999999999094393,
+        9.056076988852742e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 2: готовых документов 69–78",
+        "Решение 1: готовых документов 59–68"
+      ],
+      "latency_ms": 99.8121679876931
+    },
+    {
+      "id": "bucket-0-324",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        19.875,
+        16.625,
+        39.25
+      ],
+      "probabilities": [
+        3.850741907364451e-09,
+        1.4930946702247086e-10,
+        0.9999999959999486
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 99.8743359814398
+    },
+    {
+      "id": "bucket-0-215",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.5,
+        18.125
+      ],
+      "probabilities": [
+        0.9999999998082829,
+        1.9171715133907573e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 108–117",
+        "Категория: значение в диапазоне 118–127"
+      ],
+      "latency_ms": 99.44101801374927
+    },
+    {
+      "id": "bucket-4-154",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        37.5,
+        15.9375
+      ],
+      "probabilities": [
+        0.9999999995679587,
+        4.320412697441966e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 2: затронутых клиентов 167–176",
+        "Решение 1: затронутых клиентов 157–166"
+      ],
+      "latency_ms": 100.88542703306302
+    },
+    {
+      "id": "bucket-0-182",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        19.625,
+        16.75,
+        38.75
+      ],
+      "probabilities": [
+        4.944450476111815e-09,
+        2.7894680782984246e-10,
+        0.9999999947766027
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 101.22472798684612
+    },
+    {
+      "id": "bucket-4-241",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        18.875,
+        23.25,
+        18.0,
+        39.25,
+        16.625,
+        17.25,
+        15.125
+      ],
+      "probabilities": [
+        1.4166086237277002e-09,
+        1.1253516177727826e-07,
+        5.905303319811212e-10,
+        0.9999998849961277,
+        1.4930945044854947e-10,
+        2.789467772069292e-10,
+        3.331544159025889e-11
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Decision 3: affected clients 163–172",
+        "Decision 7: affected clients 203–212",
+        "Decision 4: affected clients 173–182",
+        "Decision 6: affected clients 193–202",
+        "Decision 1: affected clients 143–152",
+        "Decision 5: affected clients 183–192",
+        "Decision 2: affected clients 153–162"
+      ],
+      "latency_ms": 106.48656298872083
+    },
+    {
+      "id": "bucket-4-282",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        19.25,
+        38.5,
+        18.375,
+        18.625,
+        18.125,
+        15.1875,
+        14.375
+      ],
+      "probabilities": [
+        4.3634622091213694e-09,
+        0.9999999899569815,
+        1.81896166928518e-09,
+        2.335593015342933e-09,
+        1.416608772416168e-09,
+        7.507751445521824e-11,
+        3.3315445087076484e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 5: затронутых клиентов 183–192",
+        "Решение 6: затронутых клиентов 193–202",
+        "Решение 3: затронутых клиентов 163–172",
+        "Решение 2: затронутых клиентов 153–162",
+        "Решение 7: затронутых клиентов 203–212",
+        "Решение 4: затронутых клиентов 173–182",
+        "Решение 1: затронутых клиентов 143–152"
+      ],
+      "latency_ms": 132.18247302575037
+    },
+    {
+      "id": "bucket-4-141",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        37.5,
+        15.8125
+      ],
+      "probabilities": [
+        0.999999999618725,
+        3.8127508235732506e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 2: affected clients 167–176",
+        "Decision 1: affected clients 157–166"
+      ],
+      "latency_ms": 101.95155203109607
+    },
+    {
+      "id": "bucket-0-76",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        16.25,
+        16.625,
+        37.25
+      ],
+      "probabilities": [
+        7.582560413796879e-10,
+        1.1032560302898295e-09,
+        0.9999999981384879
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 66–75",
+        "Category: value in range 76–85",
+        "Category: value in range 86–95"
+      ],
+      "latency_ms": 99.59350602002814
+    },
+    {
+      "id": "bucket-4-105",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        40.5,
+        18.375
+      ],
+      "probabilities": [
+        0.9999999997538302,
+        2.4616969512093895e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Low priority",
+        "Critical priority"
+      ],
+      "latency_ms": 72.34087196411565
+    },
+    {
+      "id": "bucket-1-90",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        38.75,
+        17.375,
+        16.75,
+        16.25,
+        15.875
+      ],
+      "probabilities": [
+        0.9999999989144397,
+        5.211412482231238e-10,
+        2.7894680898407886e-10,
+        1.691897920778473e-10,
+        1.1628233017597822e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Agent for ticket code 149–158",
+        "Agent for ticket code 129–138",
+        "Agent for ticket code 169–178",
+        "Agent for ticket code 159–168",
+        "Agent for ticket code 139–148"
+      ],
+      "latency_ms": 100.89666896965355
+    },
+    {
+      "id": "bucket-0-57",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        38.75,
+        16.125,
+        15.5
+      ],
+      "probabilities": [
+        0.9999999997707709,
+        1.4930946758549034e-10,
+        7.991959891121943e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 86–95",
+        "Category: value in range 66–75",
+        "Category: value in range 76–85"
+      ],
+      "latency_ms": 100.16650799661875
+    },
+    {
+      "id": "bucket-1-287",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        18.625,
+        39.0,
+        17.375,
+        17.0,
+        15.125
+      ],
+      "probabilities": [
+        1.4166087836057056e-09,
+        0.9999999978558014,
+        4.058652117773137e-10,
+        2.789468086887751e-10,
+        4.2777878597965714e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Agent for ticket code 139–148",
+        "Agent for ticket code 149–158",
+        "Agent for ticket code 129–138",
+        "Agent for ticket code 169–178",
+        "Agent for ticket code 159–168"
+      ],
+      "latency_ms": 106.02047201246023
+    },
+    {
+      "id": "bucket-0-213",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        38.75,
+        16.75
+      ],
+      "probabilities": [
+        0.9999999997210531,
+        2.7894680920908113e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 108–117",
+        "Category: value in range 118–127"
+      ],
+      "latency_ms": 99.87766301492229
+    },
+    {
+      "id": "bucket-0-398",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        40.25,
+        16.75
+      ],
+      "probabilities": [
+        0.9999999999377585,
+        6.224144622520382e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 108–117",
+        "Category: value in range 118–127"
+      ],
+      "latency_ms": 100.01205705339089
+    },
+    {
+      "id": "bucket-1-226",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        39.75,
+        19.0,
+        17.125,
+        16.875,
+        16.375
+      ],
+      "probabilities": [
+        0.9999999986902595,
+        9.736200300257668e-10,
+        1.4930946742415974e-10,
+        1.1628233014991002e-10,
+        7.052879841874717e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Agent for ticket code 149–158",
+        "Agent for ticket code 169–178",
+        "Agent for ticket code 129–138",
+        "Agent for ticket code 159–168",
+        "Agent for ticket code 139–148"
+      ],
+      "latency_ms": 106.31700197700411
+    },
+    {
+      "id": "bucket-1-128",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        19.625,
+        22.25,
+        18.875,
+        38.75,
+        20.0
+      ],
+      "probabilities": [
+        4.944450092883247e-09,
+        6.825602811651312e-08,
+        2.3355928455752495e-09,
+        0.9999999172697964,
+        7.194132435153293e-09
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Агент для заявок с кодом 169–178",
+        "Агент для заявок с кодом 139–148",
+        "Агент для заявок с кодом 129–138",
+        "Агент для заявок с кодом 149–158",
+        "Агент для заявок с кодом 159–168"
+      ],
+      "latency_ms": 105.54472304647788
+    },
+    {
+      "id": "bucket-0-22",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        19.875,
+        16.375,
+        39.0
+      ],
+      "probabilities": [
+        4.944450476752799e-09,
+        1.493094668591698e-10,
+        0.9999999949062399
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 101.00604500621557
+    },
+    {
+      "id": "bucket-5-98",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        18.625,
+        37.0,
+        15.75,
+        16.125,
+        13.25,
+        12.375
+      ],
+      "probabilities": [
+        1.0467401669284166e-08,
+        0.9999999880141707,
+        5.905303928164074e-10,
+        8.592166516189867e-10,
+        4.8473686481705215e-11,
+        2.0206838848026447e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 3: violations 156–165",
+        "Decision 1: violations 136–145",
+        "Decision 4: violations 166–175",
+        "Decision 6: violations 186–195",
+        "Decision 2: violations 146–155",
+        "Decision 5: violations 176–185"
+      ],
+      "latency_ms": 105.88383296271786
+    },
+    {
+      "id": "bucket-5-108",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        39.25,
+        16.875,
+        16.375,
+        16.0,
+        15.0,
+        12.9375,
+        13.0625
+      ],
+      "probabilities": [
+        0.9999999995747069,
+        1.917171512942952e-10,
+        1.1628233025275562e-10,
+        7.991959889555007e-11,
+        2.940077738034078e-11,
+        3.737889381021237e-12,
+        4.2355835698391326e-12
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 6: нарушений 95–104",
+        "Решение 7: нарушений 105–114",
+        "Решение 3: нарушений 65–74",
+        "Решение 5: нарушений 85–94",
+        "Решение 1: нарушений 45–54",
+        "Решение 2: нарушений 55–64",
+        "Решение 4: нарушений 75–84"
+      ],
+      "latency_ms": 106.43675900064409
+    },
+    {
+      "id": "bucket-0-53",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        38.25,
+        16.75
+      ],
+      "probabilities": [
+        0.9999999995400946,
+        4.599055376537186e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 108–117",
+        "Category: value in range 118–127"
+      ],
+      "latency_ms": 98.91840995987877
+    },
+    {
+      "id": "bucket-5-175",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        22.75,
+        19.25,
+        41.25,
+        19.25,
+        18.25,
+        15.5
+      ],
+      "probabilities": [
+        9.237449570478068e-09,
+        2.789468065240575e-10,
+        0.9999999900954776,
+        2.789468065240575e-10,
+        1.0261879530062874e-10,
+        6.560200103178129e-12
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 2: violations 146–155",
+        "Decision 5: violations 176–185",
+        "Decision 1: violations 136–145",
+        "Decision 3: violations 156–165",
+        "Decision 4: violations 166–175",
+        "Decision 6: violations 186–195"
+      ],
+      "latency_ms": 106.90158698707819
+    },
+    {
+      "id": "bucket-4-166",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        40.0,
+        17.375,
+        17.75
+      ],
+      "probabilities": [
+        0.9999999996334465,
+        1.4930946756498652e-10,
+        2.1724399342827014e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 3: затронутых клиентов 86–95",
+        "Решение 1: затронутых клиентов 66–75",
+        "Решение 2: затронутых клиентов 76–85"
+      ],
+      "latency_ms": 100.76519998256117
+    },
+    {
+      "id": "bucket-0-282",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.25,
+        17.0,
+        16.5,
+        15.5625
+      ],
+      "probabilities": [
+        0.9999999998526241,
+        7.99195989177611e-11,
+        4.84736870555587e-11,
+        1.8982568596727103e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 83–92",
+        "Категория: значение в диапазоне 103–112",
+        "Категория: значение в диапазоне 73–82",
+        "Категория: значение в диапазоне 93–102"
+      ],
+      "latency_ms": 101.79703001631424
+    },
+    {
+      "id": "bucket-0-122",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.0,
+        17.25,
+        16.875,
+        15.8125
+      ],
+      "probabilities": [
+        0.9999999997463773,
+        1.3176514266753602e-10,
+        9.056076987376041e-11,
+        3.129696461462306e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 83–92",
+        "Категория: значение в диапазоне 103–112",
+        "Категория: значение в диапазоне 73–82",
+        "Категория: значение в диапазоне 93–102"
+      ],
+      "latency_ms": 101.22070100624114
+    },
+    {
+      "id": "bucket-0-5",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        38.0,
+        15.375,
+        14.9375,
+        14.25
+      ],
+      "probabilities": [
+        0.9999999997058155,
+        1.4930946757579188e-10,
+        9.640143772204315e-11,
+        4.847368704844235e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 83–92",
+        "Категория: значение в диапазоне 73–82",
+        "Категория: значение в диапазоне 103–112",
+        "Категория: значение в диапазоне 93–102"
+      ],
+      "latency_ms": 102.44257998419926
+    },
+    {
+      "id": "bucket-5-107",
+      "task": "safety",
+      "language": "en",
+      "scores": [
+        18.875,
+        23.25,
+        19.625,
+        18.0,
+        39.0,
+        20.375,
+        17.0
+      ],
+      "probabilities": [
+        1.8189613976889024e-09,
+        1.4449800158416342e-07,
+        3.85074130912522e-09,
+        7.582559219578383e-10,
+        0.9999998406430738,
+        8.152019415389204e-09,
+        2.7894676483478635e-10
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 3: violations 65–74",
+        "Decision 7: violations 105–114",
+        "Decision 5: violations 85–94",
+        "Decision 2: violations 55–64",
+        "Decision 6: violations 95–104",
+        "Decision 1: violations 45–54",
+        "Decision 4: violations 75–84"
+      ],
+      "latency_ms": 109.17455196613446
+    },
+    {
+      "id": "bucket-2-308",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        20.5,
+        18.5,
+        18.25,
+        37.5,
+        16.125,
+        16.375,
+        16.625
+      ],
+      "probabilities": [
+        4.139937497649774e-08,
+        5.6027961382630575e-09,
+        4.363462019868713e-09,
+        0.9999999465848504,
+        5.211412209520162e-10,
+        6.691585733860709e-10,
+        8.592166160222243e-10
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Решение 5: правильных ответов 183–192",
+        "Решение 1: правильных ответов 143–152",
+        "Решение 2: правильных ответов 153–162",
+        "Решение 6: правильных ответов 193–202",
+        "Решение 7: правильных ответов 203–212",
+        "Решение 3: правильных ответов 163–172",
+        "Решение 4: правильных ответов 173–182"
+      ],
+      "latency_ms": 129.95556596433744
+    },
+    {
+      "id": "bucket-2-312",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        20.25,
+        19.0,
+        20.875,
+        18.625,
+        35.75
+      ],
+      "probabilities": [
+        1.855390208814577e-07,
+        5.31578194872806e-08,
+        3.46632525707716e-07,
+        3.653479941751377e-08,
+        0.9999993781358344
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 4: правильных ответов 110–119",
+        "Решение 3: правильных ответов 100–109",
+        "Решение 2: правильных ответов 90–99",
+        "Решение 5: правильных ответов 120–129",
+        "Решение 1: правильных ответов 80–89"
+      ],
+      "latency_ms": 105.47499998938292
+    },
+    {
+      "id": "bucket-0-156",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        17.5,
+        38.75,
+        16.25,
+        15.375
+      ],
+      "probabilities": [
+        5.905303994041168e-10,
+        0.9999999991697512,
+        1.6918979212104343e-10,
+        7.052879845256515e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 103–112",
+        "Category: value in range 83–92",
+        "Category: value in range 73–82",
+        "Category: value in range 93–102"
+      ],
+      "latency_ms": 100.73128598742187
+    },
+    {
+      "id": "bucket-4-227",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        19.875,
+        38.0,
+        16.875
+      ],
+      "probabilities": [
+        1.344040976149664e-08,
+        0.9999999858904318,
+        6.691585996877391e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 3: affected clients 135–144",
+        "Decision 1: affected clients 115–124",
+        "Decision 2: affected clients 125–134"
+      ],
+      "latency_ms": 99.53815100016072
+    },
+    {
+      "id": "bucket-0-347",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        18.0,
+        17.5,
+        40.5
+      ],
+      "probabilities": [
+        1.691897922155258e-10,
+        1.0261879628912623e-10,
+        0.9999999997281914
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 100.70326295681298
+    },
+    {
+      "id": "bucket-5-285",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        40.25,
+        17.625,
+        17.25,
+        16.25,
+        16.25,
+        13.9375
+      ],
+      "probabilities": [
+        0.9999999996688311,
+        1.4930946757026975e-10,
+        1.0261879628303476e-10,
+        3.7751345430288905e-11,
+        3.7751345430288905e-11,
+        3.7378893813730635e-12
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 1: нарушений 136–145",
+        "Решение 3: нарушений 156–165",
+        "Решение 6: нарушений 186–195",
+        "Решение 2: нарушений 146–155",
+        "Решение 4: нарушений 166–175",
+        "Решение 5: нарушений 176–185"
+      ],
+      "latency_ms": 105.70775001542643
+    },
+    {
+      "id": "bucket-0-49",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        18.125,
+        37.5,
+        17.125,
+        16.5
+      ],
+      "probabilities": [
+        3.850741899564559e-09,
+        0.9999999939743931,
+        1.4166087781072686e-09,
+        7.582560382222379e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 73–82",
+        "Category: value in range 83–92",
+        "Category: value in range 103–112",
+        "Category: value in range 93–102"
+      ],
+      "latency_ms": 101.3324320083484
+    },
+    {
+      "id": "bucket-0-316",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        18.5,
+        39.75,
+        17.25,
+        16.125
+      ],
+      "probabilities": [
+        5.905303994133295e-10,
+        0.9999999991853521,
+        1.6918979212368294e-10,
+        5.492788346479995e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 103–112",
+        "Category: value in range 83–92",
+        "Category: value in range 73–82",
+        "Category: value in range 93–102"
+      ],
+      "latency_ms": 101.3251580297947
+    },
+    {
+      "id": "bucket-4-228",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        18.75,
+        19.0,
+        17.0,
+        37.75,
+        15.4375,
+        15.25,
+        15.3125
+      ],
+      "probabilities": [
+        5.602796357283246e-09,
+        7.194132927277179e-09,
+        9.736200173548986e-10,
+        0.9999999856760775,
+        2.0408184239583624e-10,
+        1.6918978983805156e-10,
+        1.8010159378808305e-10
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Decision 2: affected clients 153–162",
+        "Decision 5: affected clients 183–192",
+        "Decision 1: affected clients 143–152",
+        "Decision 6: affected clients 193–202",
+        "Decision 7: affected clients 203–212",
+        "Decision 3: affected clients 163–172",
+        "Decision 4: affected clients 173–182"
+      ],
+      "latency_ms": 107.15908295242116
+    },
+    {
+      "id": "bucket-4-261",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        17.375,
+        15.5625,
+        36.0
+      ],
+      "probabilities": [
+        8.152020637166174e-09,
+        1.3307807864494366e-09,
+        0.9999999905171987
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 1: affected clients 66–75",
+        "Decision 2: affected clients 76–85",
+        "Decision 3: affected clients 86–95"
+      ],
+      "latency_ms": 99.5577480061911
+    },
+    {
+      "id": "bucket-0-24",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        39.0,
+        15.8125,
+        15.625
+      ],
+      "probabilities": [
+        0.9999999998443974,
+        8.507397020619456e-11,
+        7.052879850014714e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 115–124",
+        "Категория: значение в диапазоне 135–144",
+        "Категория: значение в диапазоне 125–134"
+      ],
+      "latency_ms": 100.31776496907696
+    },
+    {
+      "id": "bucket-3-144",
+      "task": "verification",
+      "language": "ru",
+      "scores": [
+        20.25,
+        17.625,
+        38.25,
+        18.625,
+        20.125,
+        17.75
+      ],
+      "probabilities": [
+        1.522997922654671e-08,
+        1.1032559948077405e-09,
+        0.9999999659772416,
+        2.998960722824388e-09,
+        1.3440409493855203e-08,
+        1.2501528238530938e-09
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 4: совпавших записей 117–126",
+        "Решение 3: совпавших записей 107–116",
+        "Решение 6: совпавших записей 137–146",
+        "Решение 2: совпавших записей 97–106",
+        "Решение 1: совпавших записей 87–96",
+        "Решение 5: совпавших записей 127–136"
+      ],
+      "latency_ms": 129.50799899408594
+    },
+    {
+      "id": "bucket-4-7",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        19.625,
+        39.25,
+        18.25,
+        18.125,
+        18.5
+      ],
+      "probabilities": [
+        2.9989608086629323e-09,
+        0.9999999946000044,
+        7.582560386966114e-10,
+        6.691586055158246e-10,
+        9.736200260434127e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 4: affected clients 159–168",
+        "Decision 3: affected clients 149–158",
+        "Decision 5: affected clients 169–178",
+        "Decision 1: affected clients 129–138",
+        "Decision 2: affected clients 139–148"
+      ],
+      "latency_ms": 105.81710701808333
+    },
+    {
+      "id": "bucket-0-369",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        17.5,
+        37.25,
+        17.125,
+        16.25
+      ],
+      "probabilities": [
+        2.6465736250839686e-09,
+        0.9999999947762086,
+        1.8189616780511694e-09,
+        7.582560388302192e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 73–82",
+        "Category: value in range 83–92",
+        "Category: value in range 103–112",
+        "Category: value in range 93–102"
+      ],
+      "latency_ms": 100.69153102813289
+    },
+    {
+      "id": "bucket-4-237",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        30.5,
+        42.25
+      ],
+      "probabilities": [
+        7.889262586245034e-06,
+        0.9999921107374138
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Critical priority",
+        "Low priority"
+      ],
+      "latency_ms": 74.24571202136576
+    },
+    {
+      "id": "bucket-1-74",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        40.0,
+        20.125,
+        18.75,
+        17.5,
+        18.75
+      ],
+      "probabilities": [
+        0.9999999963141566,
+        2.3355930301907067e-09,
+        5.905303977178014e-10,
+        1.6918979163790597e-10,
+        5.905303977178014e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Агент для заявок с кодом 149–158",
+        "Агент для заявок с кодом 169–178",
+        "Агент для заявок с кодом 139–148",
+        "Агент для заявок с кодом 129–138",
+        "Агент для заявок с кодом 159–168"
+      ],
+      "latency_ms": 106.03194299619645
+    },
+    {
+      "id": "bucket-4-168",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        27.75,
+        42.5
+      ],
+      "probabilities": [
+        3.9278620026704423e-07,
+        0.9999996072137998
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Critical priority",
+        "Low priority"
+      ],
+      "latency_ms": 74.86756797879934
+    },
+    {
+      "id": "bucket-4-294",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        38.5,
+        16.375,
+        15.8125,
+        14.75,
+        13.6875
+      ],
+      "probabilities": [
+        0.9999999995483411,
+        2.461696950703537e-10,
+        1.402632642203361e-10,
+        4.8473687040808985e-11,
+        1.675205798461391e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 3: затронутых клиентов 149–158",
+        "Решение 5: затронутых клиентов 169–178",
+        "Решение 1: затронутых клиентов 129–138",
+        "Решение 4: затронутых клиентов 159–168",
+        "Решение 2: затронутых клиентов 139–148"
+      ],
+      "latency_ms": 107.59624902857468
+    },
+    {
+      "id": "bucket-5-148",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        27.375,
+        17.5,
+        17.125,
+        16.625,
+        36.5,
+        15.375
+      ],
+      "probabilities": [
+        0.00010889690867003293,
+        5.6021862405316524e-09,
+        3.850322540907707e-09,
+        2.3353386708431746e-09,
+        0.999891090634397,
+        6.690857314896701e-10
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 2: нарушений 146–155",
+        "Решение 5: нарушений 176–185",
+        "Решение 3: нарушений 156–165",
+        "Решение 4: нарушений 166–175",
+        "Решение 1: нарушений 136–145",
+        "Решение 6: нарушений 186–195"
+      ],
+      "latency_ms": 108.49940701154992
+    },
+    {
+      "id": "bucket-0-303",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        21.375,
+        38.5,
+        17.375
+      ],
+      "probabilities": [
+        3.653482077796969e-08,
+        0.9999999627960208,
+        6.691585842339152e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 76–85",
+        "Категория: значение в диапазоне 86–95",
+        "Категория: значение в диапазоне 66–75"
+      ],
+      "latency_ms": 102.53271000692621
+    },
+    {
+      "id": "bucket-1-197",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        19.5,
+        17.125,
+        22.25,
+        17.5,
+        23.25,
+        17.625,
+        31.375
+      ],
+      "probabilities": [
+        6.959419533622396e-06,
+        6.473268531226011e-07,
+        0.00010886363789208367,
+        9.418550137452019e-07,
+        0.0002959220486619966,
+        1.06726155183861e-06,
+        0.9995855984504936
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Агент для заявок с кодом 45–54",
+        "Агент для заявок с кодом 55–64",
+        "Агент для заявок с кодом 105–114",
+        "Агент для заявок с кодом 75–84",
+        "Агент для заявок с кодом 85–94",
+        "Агент для заявок с кодом 65–74",
+        "Агент для заявок с кодом 95–104"
+      ],
+      "latency_ms": 105.03606201382354
+    },
+    {
+      "id": "bucket-4-276",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        19.125,
+        38.25,
+        17.0
+      ],
+      "probabilities": [
+        4.9444504745712065e-09,
+        0.9999999944650193,
+        5.905303966258296e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Decision 3: affected clients 135–144",
+        "Decision 1: affected clients 115–124",
+        "Decision 2: affected clients 125–134"
+      ],
+      "latency_ms": 98.51910499855876
+    },
+    {
+      "id": "bucket-5-231",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        22.375,
+        17.625,
+        37.75
+      ],
+      "probabilities": [
+        2.102433406534884e-07,
+        1.8189613018198431e-09,
+        0.999999787937698
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 2: нарушений 125–134",
+        "Решение 3: нарушений 135–144",
+        "Решение 1: нарушений 115–124"
+      ],
+      "latency_ms": 99.73645501304418
+    },
+    {
+      "id": "bucket-4-20",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        39.0,
+        17.125,
+        17.125
+      ],
+      "probabilities": [
+        0.9999999993678239,
+        3.1608814523154584e-10,
+        3.1608814523154584e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 3: затронутых клиентов 86–95",
+        "Решение 1: затронутых клиентов 66–75",
+        "Решение 2: затронутых клиентов 76–85"
+      ],
+      "latency_ms": 102.24772099172696
+    },
+    {
+      "id": "bucket-0-93",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        21.0,
+        40.5,
+        19.25,
+        21.625
+      ],
+      "probabilities": [
+        3.3982677843651435e-09,
+        0.9999999896624018,
+        5.905303937897379e-10,
+        6.348800050412336e-09
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 103–112",
+        "Категория: значение в диапазоне 83–92",
+        "Категория: значение в диапазоне 93–102",
+        "Категория: значение в диапазоне 73–82"
+      ],
+      "latency_ms": 101.08365199994296
+    },
+    {
+      "id": "bucket-0-341",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        20.25,
+        18.75,
+        18.5,
+        43.0
+      ],
+      "probabilities": [
+        1.3176514267670155e-10,
+        2.940077738743312e-11,
+        2.289734845224097e-11,
+        0.9999999998159368
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Category: value in range 132–141",
+        "Category: value in range 152–161",
+        "Category: value in range 142–151",
+        "Category: value in range 122–131"
+      ],
+      "latency_ms": 101.92714596632868
+    },
+    {
+      "id": "bucket-2-49",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        20.125,
+        20.25,
+        21.75,
+        20.0,
+        20.125,
+        19.125,
+        40.0
+      ],
+      "probabilities": [
+        2.3355929871844832e-09,
+        2.6465735804218254e-09,
+        1.1861119889221974e-08,
+        2.0611535768886092e-09,
+        2.3355929871844832e-09,
+        8.592166429293674e-10,
+        0.9999999779007502
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Decision 2: correct answers 104–113",
+        "Decision 3: correct answers 114–123",
+        "Decision 4: correct answers 124–133",
+        "Decision 1: correct answers 94–103",
+        "Decision 7: correct answers 154–163",
+        "Decision 5: correct answers 134–143",
+        "Decision 6: correct answers 144–153"
+      ],
+      "latency_ms": 105.6568439817056
+    },
+    {
+      "id": "bucket-3-47",
+      "task": "workflow",
+      "language": "ru",
+      "scores": [
+        21.625,
+        21.375,
+        20.75,
+        19.75,
+        17.625,
+        19.0,
+        39.0,
+        18.875
+      ],
+      "probabilities": [
+        2.845334606285528e-08,
+        2.2159488194753362e-08,
+        1.1861119306373386e-08,
+        4.363461942096447e-09,
+        5.211412116634437e-10,
+        2.0611534756047116e-09,
+        0.9999999287613284,
+        1.8189615579726314e-09
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Решение 2: готовых документов 62–71",
+        "Решение 8: готовых документов 122–131",
+        "Решение 3: готовых документов 72–81",
+        "Решение 4: готовых документов 82–91",
+        "Решение 1: готовых документов 52–61",
+        "Решение 6: готовых документов 102–111",
+        "Решение 7: готовых документов 112–121",
+        "Решение 5: готовых документов 92–101"
+      ],
+      "latency_ms": 130.4434070480056
+    },
+    {
+      "id": "bucket-0-392",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        18.5,
+        38.75,
+        16.875,
+        16.625
+      ],
+      "probabilities": [
+        1.6052280517063026e-09,
+        0.9999999978325143,
+        3.160881447462527e-10,
+        2.4616969464796917e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 93–102",
+        "Category: value in range 83–92",
+        "Category: value in range 103–112",
+        "Category: value in range 73–82"
+      ],
+      "latency_ms": 103.60615898389369
+    },
+    {
+      "id": "bucket-2-212",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        20.25,
+        18.25,
+        18.0,
+        18.25,
+        38.75
+      ],
+      "probabilities": [
+        9.237449544549904e-09,
+        1.2501528504955802e-09,
+        9.736200189249068e-10,
+        1.2501528504955802e-09,
+        0.9999999872886246
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 5: correct answers 120–129",
+        "Decision 4: correct answers 110–119",
+        "Decision 3: correct answers 100–109",
+        "Decision 2: correct answers 90–99",
+        "Decision 1: correct answers 80–89"
+      ],
+      "latency_ms": 102.646384970285
+    },
+    {
+      "id": "bucket-0-217",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        39.25,
+        15.75,
+        15.25
+      ],
+      "probabilities": [
+        0.9999999999000071,
+        6.224144622285412e-11,
+        3.775134543901611e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 86–95",
+        "Category: value in range 66–75",
+        "Category: value in range 76–85"
+      ],
+      "latency_ms": 99.0770089556463
+    },
+    {
+      "id": "bucket-3-138",
+      "task": "workflow",
+      "language": "ru",
+      "scores": [
+        18.0,
+        16.125,
+        32.0,
+        18.125,
+        15.9375,
+        15.25,
+        17.5,
+        15.0625
+      ],
+      "probabilities": [
+        8.315265499957196e-07,
+        1.2751872650527133e-07,
+        0.9999973914216088,
+        9.422430238116447e-07,
+        1.0571673738615273e-07,
+        5.3157713877818747e-08,
+        5.043463469374738e-07,
+        4.406929266061411e-08
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 1: готовых документов 52–61",
+        "Решение 2: готовых документов 62–71",
+        "Решение 7: готовых документов 112–121",
+        "Решение 6: готовых документов 102–111",
+        "Решение 4: готовых документов 82–91",
+        "Решение 8: готовых документов 122–131",
+        "Решение 3: готовых документов 72–81",
+        "Решение 5: готовых документов 92–101"
+      ],
+      "latency_ms": 130.91469800565392
+    },
+    {
+      "id": "bucket-4-118",
+      "task": "risk",
+      "language": "en",
+      "scores": [
+        38.5,
+        15.875,
+        15.4375,
+        16.0
+      ],
+      "probabilities": [
+        0.9999999995850994,
+        1.4930946755776782e-10,
+        9.640143771040594e-11,
+        1.691897921913161e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Decision 3: risk points 44–53",
+        "Decision 2: risk points 34–43",
+        "Decision 1: risk points 24–33",
+        "Decision 4: risk points 54–63"
+      ],
+      "latency_ms": 102.26958297425881
+    },
+    {
+      "id": "bucket-0-198",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        17.375,
+        38.0,
+        15.875
+      ],
+      "probabilities": [
+        1.103256030854792e-09,
+        0.9999999986505743,
+        2.4616969484935074e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 76–85",
+        "Категория: значение в диапазоне 86–95",
+        "Категория: значение в диапазоне 66–75"
+      ],
+      "latency_ms": 100.37836799165234
+    },
+    {
+      "id": "bucket-1-173",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        19.25,
+        25.125,
+        20.125,
+        40.5,
+        16.625,
+        16.375,
+        16.25
+      ],
+      "probabilities": [
+        5.905302744917461e-10,
+        2.1024334059174598e-07,
+        1.4166084858178586e-09,
+        0.9999997876440267,
+        4.277786960555192e-11,
+        3.331543834693029e-11,
+        2.940077114941403e-11
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Agent for ticket code 65–74",
+        "Agent for ticket code 85–94",
+        "Agent for ticket code 105–114",
+        "Agent for ticket code 95–104",
+        "Agent for ticket code 55–64",
+        "Agent for ticket code 45–54",
+        "Agent for ticket code 75–84"
+      ],
+      "latency_ms": 103.83203602395952
+    },
+    {
+      "id": "bucket-2-266",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        22.375,
+        20.5,
+        19.125,
+        27.875,
+        19.25,
+        39.75,
+        18.5
+      ],
+      "probabilities": [
+        2.8453148972834573e-08,
+        4.363431717362856e-09,
+        1.1032483117396353e-09,
+        6.962256001164609e-06,
+        1.2501441177963554e-09,
+        0.9999930019834995,
+        5.905262673529214e-10
+      ],
+      "target": 5,
+      "semantic_labels": [
+        "Decision 5: correct answers 183–192",
+        "Decision 1: correct answers 143–152",
+        "Decision 4: correct answers 173–182",
+        "Decision 7: correct answers 203–212",
+        "Decision 3: correct answers 163–172",
+        "Decision 6: correct answers 193–202",
+        "Decision 2: correct answers 153–162"
+      ],
+      "latency_ms": 104.99949200311676
+    },
+    {
+      "id": "bucket-0-78",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        38.5,
+        16.375
+      ],
+      "probabilities": [
+        0.9999999997538302,
+        2.4616969512093895e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 108–117",
+        "Category: value in range 118–127"
+      ],
+      "latency_ms": 99.17320200474933
+    },
+    {
+      "id": "bucket-2-121",
+      "task": "judging",
+      "language": "en",
+      "scores": [
+        19.375,
+        20.0,
+        18.625,
+        21.625,
+        19.25,
+        39.0,
+        18.875
+      ],
+      "probabilities": [
+        2.9989606960901836e-09,
+        5.602796196968609e-09,
+        1.4166087258179139e-09,
+        2.8453346868125545e-08,
+        2.6465735252725293e-09,
+        0.9999999570627524,
+        1.8189616094518374e-09
+      ],
+      "target": 5,
+      "semantic_labels": [
+        "Decision 3: correct answers 114–123",
+        "Decision 1: correct answers 94–103",
+        "Decision 4: correct answers 124–133",
+        "Decision 7: correct answers 154–163",
+        "Decision 5: correct answers 134–143",
+        "Decision 6: correct answers 144–153",
+        "Decision 2: correct answers 104–113"
+      ],
+      "latency_ms": 108.03420696174726
+    },
+    {
+      "id": "bucket-1-69",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        20.0,
+        20.375,
+        20.375,
+        42.0,
+        19.125,
+        17.0,
+        17.25
+      ],
+      "probabilities": [
+        2.789468089413666e-10,
+        4.0586521214483216e-10,
+        4.0586521214483216e-10,
+        0.99999999876132,
+        1.162823301581731e-10,
+        1.3887943847761302e-11,
+        1.783247288605766e-11
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Agent for ticket code 105–114",
+        "Agent for ticket code 55–64",
+        "Agent for ticket code 85–94",
+        "Agent for ticket code 95–104",
+        "Agent for ticket code 45–54",
+        "Agent for ticket code 65–74",
+        "Agent for ticket code 75–84"
+      ],
+      "latency_ms": 107.88133897585794
+    },
+    {
+      "id": "bucket-0-304",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        41.0,
+        18.25
+      ],
+      "probabilities": [
+        0.999999999868235,
+        1.3176514268359263e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 108–117",
+        "Категория: значение в диапазоне 118–127"
+      ],
+      "latency_ms": 99.82669597957283
+    },
+    {
+      "id": "bucket-1-175",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        40.75,
+        19.25,
+        18.75,
+        18.0,
+        17.875,
+        15.9375,
+        15.8125
+      ],
+      "probabilities": [
+        0.9999999989815644,
+        4.599055373968475e-10,
+        2.789468090028031e-10,
+        1.3176514256676035e-10,
+        1.1628233018378363e-10,
+        1.6752057975119237e-11,
+        1.4783639274960296e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Агент для заявок с кодом 95–104",
+        "Агент для заявок с кодом 75–84",
+        "Агент для заявок с кодом 55–64",
+        "Агент для заявок с кодом 45–54",
+        "Агент для заявок с кодом 65–74",
+        "Агент для заявок с кодом 85–94",
+        "Агент для заявок с кодом 105–114"
+      ],
+      "latency_ms": 105.69161002058536
+    },
+    {
+      "id": "bucket-4-93",
+      "task": "risk",
+      "language": "ru",
+      "scores": [
+        20.875,
+        18.875,
+        40.0,
+        18.125
+      ],
+      "probabilities": [
+        4.94445047261955e-09,
+        6.691586051613703e-10,
+        0.9999999940703028,
+        3.1608814355706226e-10
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 4: баллов риска 54–63",
+        "Решение 2: баллов риска 34–43",
+        "Решение 3: баллов риска 44–53",
+        "Решение 1: баллов риска 24–33"
+      ],
+      "latency_ms": 101.02889797417447
+    },
+    {
+      "id": "bucket-0-312",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        19.625,
+        20.375,
+        20.0,
+        40.25
+      ],
+      "probabilities": [
+        1.1032560267786455e-09,
+        2.3355930270184257e-09,
+        1.6052280470887176e-09,
+        0.9999999949559228
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 142–151",
+        "Категория: значение в диапазоне 132–141",
+        "Категория: значение в диапазоне 152–161",
+        "Категория: значение в диапазоне 122–131"
+      ],
+      "latency_ms": 106.26665700692683
+    },
+    {
+      "id": "bucket-0-16",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        20.125,
+        39.0,
+        17.375
+      ],
+      "probabilities": [
+        6.348800073159661e-09,
+        0.9999999932453347,
+        4.0586520990608567e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 66–75",
+        "Категория: значение в диапазоне 86–95",
+        "Категория: значение в диапазоне 76–85"
+      ],
+      "latency_ms": 101.71671799616888
+    },
+    {
+      "id": "bucket-2-0",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        21.5,
+        19.875,
+        21.0,
+        19.125,
+        37.25
+      ],
+      "probabilities": [
+        1.444979850135254e-07,
+        2.845334029264381e-08,
+        8.764245817739977e-08,
+        1.344040626800317e-08,
+        0.9999997259658102
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 4: правильных ответов 110–119",
+        "Решение 3: правильных ответов 100–109",
+        "Решение 2: правильных ответов 90–99",
+        "Решение 5: правильных ответов 120–129",
+        "Решение 1: правильных ответов 80–89"
+      ],
+      "latency_ms": 107.66002000309527
+    },
+    {
+      "id": "bucket-1-84",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        18.75,
+        19.75,
+        19.125,
+        39.75,
+        16.375,
+        16.0,
+        15.125
+      ],
+      "probabilities": [
+        7.582560397112494e-10,
+        2.0611536140664094e-09,
+        1.1032560278622657e-09,
+        0.9999999959381249,
+        7.052879822464243e-11,
+        4.8473686865808496e-11,
+        2.0206839008144515e-11
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Agent for ticket code 55–64",
+        "Agent for ticket code 45–54",
+        "Agent for ticket code 85–94",
+        "Agent for ticket code 95–104",
+        "Agent for ticket code 65–74",
+        "Agent for ticket code 105–114",
+        "Agent for ticket code 75–84"
+      ],
+      "latency_ms": 106.37003200827166
+    },
+    {
+      "id": "bucket-0-27",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        18.0,
+        17.0,
+        39.5
+      ],
+      "probabilities": [
+        4.599055375759073e-10,
+        1.6918979215507656e-10,
+        0.9999999993709048
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 98.50193304009736
+    },
+    {
+      "id": "bucket-4-198",
+      "task": "risk",
+      "language": "en",
+      "scores": [
+        18.625,
+        18.125,
+        37.25,
+        17.75
+      ],
+      "probabilities": [
+        8.152020580004714e-09,
+        4.944450420381224e-09,
+        0.9999999835052611,
+        3.398267763441531e-09
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Decision 2: risk points 34–43",
+        "Decision 4: risk points 54–63",
+        "Decision 3: risk points 44–53",
+        "Decision 1: risk points 24–33"
+      ],
+      "latency_ms": 100.23361496860161
+    },
+    {
+      "id": "bucket-2-199",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        18.125,
+        17.875,
+        38.25,
+        27.25,
+        16.5,
+        15.5,
+        18.125
+      ],
+      "probabilities": [
+        1.8189312982217315e-09,
+        1.4165851194081714e-09,
+        0.9999832930338652,
+        1.6701421755496163e-05,
+        3.5816880901418066e-10,
+        1.3176294130517782e-10,
+        1.8189312982217315e-09
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Решение 1: правильных ответов 143–152",
+        "Решение 7: правильных ответов 203–212",
+        "Решение 6: правильных ответов 193–202",
+        "Решение 5: правильных ответов 183–192",
+        "Решение 3: правильных ответов 163–172",
+        "Решение 4: правильных ответов 173–182",
+        "Решение 2: правильных ответов 153–162"
+      ],
+      "latency_ms": 132.10824300767854
+    },
+    {
+      "id": "bucket-1-151",
+      "task": "routing",
+      "language": "ru",
+      "scores": [
+        18.5,
+        17.875,
+        36.75,
+        19.0,
+        17.25,
+        14.9375,
+        22.0
+      ],
+      "probabilities": [
+        1.1861115000219363e-08,
+        6.3487973588454396e-09,
+        0.9999995657134907,
+        1.955567259508202e-08,
+        3.398266343673202e-09,
+        3.3647393321516166e-10,
+        3.927861839662891e-07
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Агент для заявок с кодом 75–84",
+        "Агент для заявок с кодом 45–54",
+        "Агент для заявок с кодом 95–104",
+        "Агент для заявок с кодом 55–64",
+        "Агент для заявок с кодом 105–114",
+        "Агент для заявок с кодом 65–74",
+        "Агент для заявок с кодом 85–94"
+      ],
+      "latency_ms": 106.61609697854146
+    },
+    {
+      "id": "bucket-0-373",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        39.0,
+        16.875
+      ],
+      "probabilities": [
+        0.9999999997538302,
+        2.4616969512093895e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 108–117",
+        "Category: value in range 118–127"
+      ],
+      "latency_ms": 97.6669350056909
+    },
+    {
+      "id": "bucket-4-175",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        35.25,
+        26.75
+      ],
+      "probabilities": [
+        0.9997965730219448,
+        0.0002034269780552065
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Низкий приоритет",
+        "Критический приоритет"
+      ],
+      "latency_ms": 97.69472701009363
+    },
+    {
+      "id": "bucket-0-253",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        21.375,
+        40.0,
+        19.625,
+        21.5
+      ],
+      "probabilities": [
+        8.152020561162624e-09,
+        0.9999999811939212,
+        1.4166087600023397e-09,
+        9.237449488250389e-09
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 103–112",
+        "Категория: значение в диапазоне 83–92",
+        "Категория: значение в диапазоне 93–102",
+        "Категория: значение в диапазоне 73–82"
+      ],
+      "latency_ms": 101.56214598100632
+    },
+    {
+      "id": "bucket-5-253",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        19.875,
+        37.75,
+        15.75,
+        15.625,
+        13.5,
+        12.0
+      ],
+      "probabilities": [
+        1.725782768044461e-08,
+        0.9999999821810946,
+        2.7894680431636566e-10,
+        2.4616969079506393e-10,
+        2.9400776868955055e-11,
+        6.560200051258193e-12
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Решение 5: нарушений 176–185",
+        "Решение 1: нарушений 136–145",
+        "Решение 6: нарушений 186–195",
+        "Решение 4: нарушений 166–175",
+        "Решение 2: нарушений 146–155",
+        "Решение 3: нарушений 156–165"
+      ],
+      "latency_ms": 105.45473295496777
+    },
+    {
+      "id": "bucket-0-219",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        38.5,
+        15.5,
+        15.5
+      ],
+      "probabilities": [
+        0.9999999997947624,
+        1.0261879629595767e-10,
+        1.0261879629595767e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 86–95",
+        "Category: value in range 76–85",
+        "Category: value in range 66–75"
+      ],
+      "latency_ms": 100.38781800540164
+    },
+    {
+      "id": "bucket-0-72",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        18.125,
+        38.0,
+        16.25,
+        16.25
+      ],
+      "probabilities": [
+        2.335593031671241e-09,
+        0.9999999969480573,
+        3.5817479193518915e-10,
+        3.5817479193518915e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 93–102",
+        "Category: value in range 83–92",
+        "Category: value in range 103–112",
+        "Category: value in range 73–82"
+      ],
+      "latency_ms": 101.10419994452968
+    },
+    {
+      "id": "bucket-4-111",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        40.5,
+        17.625,
+        17.75
+      ],
+      "probabilities": [
+        0.9999999997519526,
+        1.1628233027336617e-10,
+        1.3176514266827066e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 1: затронутых клиентов 115–124",
+        "Решение 2: затронутых клиентов 125–134",
+        "Решение 3: затронутых клиентов 135–144"
+      ],
+      "latency_ms": 100.0030700233765
+    },
+    {
+      "id": "bucket-0-4",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        20.75,
+        16.875,
+        39.75
+      ],
+      "probabilities": [
+        5.602796405494434e-09,
+        1.162823296371819e-10,
+        0.9999999942809212
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Category: value in range 125–134",
+        "Category: value in range 135–144",
+        "Category: value in range 115–124"
+      ],
+      "latency_ms": 101.10899904975668
+    },
+    {
+      "id": "bucket-3-4",
+      "task": "verification",
+      "language": "en",
+      "scores": [
+        21.875,
+        19.25,
+        18.75,
+        18.75,
+        39.5,
+        18.75
+      ],
+      "probabilities": [
+        2.2159489182027202e-08,
+        1.6052280123491744e-09,
+        9.73620005319344e-10,
+        9.73620005319344e-10,
+        0.9999999733144227,
+        9.73620005319344e-10
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Decision 1: matching records 87–96",
+        "Decision 3: matching records 107–116",
+        "Decision 4: matching records 117–126",
+        "Decision 5: matching records 127–136",
+        "Decision 6: matching records 137–146",
+        "Decision 2: matching records 97–106"
+      ],
+      "latency_ms": 106.83783696731552
+    },
+    {
+      "id": "bucket-1-111",
+      "task": "routing",
+      "language": "en",
+      "scores": [
+        17.875,
+        37.75,
+        16.875,
+        16.375,
+        14.6875
+      ],
+      "probabilities": [
+        2.3355930298952333e-09,
+        0.9999999961876476,
+        8.592166586417743e-10,
+        5.2114124680208e-10,
+        9.64014373828867e-11
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Agent for ticket code 139–148",
+        "Agent for ticket code 149–158",
+        "Agent for ticket code 129–138",
+        "Agent for ticket code 169–178",
+        "Agent for ticket code 159–168"
+      ],
+      "latency_ms": 105.34192901104689
+    },
+    {
+      "id": "bucket-0-349",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        21.375,
+        41.25
+      ],
+      "probabilities": [
+        2.3355930333443423e-09,
+        0.999999997664407
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Category: value in range 118–127",
+        "Category: value in range 108–117"
+      ],
+      "latency_ms": 99.03918800409883
+    },
+    {
+      "id": "bucket-0-273",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        39.5,
+        16.625,
+        16.125,
+        14.8125
+      ],
+      "probabilities": [
+        0.9999999997942064,
+        1.1628233027827954e-10,
+        7.052879849660723e-11,
+        1.8982568595618187e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Category: value in range 122–131",
+        "Category: value in range 132–141",
+        "Category: value in range 152–161",
+        "Category: value in range 142–151"
+      ],
+      "latency_ms": 101.1043110047467
+    },
+    {
+      "id": "bucket-0-358",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        17.5,
+        37.75,
+        15.875
+      ],
+      "probabilities": [
+        1.6052280521014613e-09,
+        0.999999998078684,
+        3.16088144824064e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 76–85",
+        "Категория: значение в диапазоне 86–95",
+        "Категория: значение в диапазоне 66–75"
+      ],
+      "latency_ms": 100.96906498074532
+    },
+    {
+      "id": "bucket-2-218",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        19.75,
+        19.5,
+        20.5,
+        21.5,
+        18.625,
+        35.0,
+        19.25
+      ],
+      "probabilities": [
+        2.3823636617414759e-07,
+        1.8553866853251208e-07,
+        5.043463911484136e-07,
+        1.3709556303076306e-06,
+        7.73440240929243e-08,
+        0.9999974790812592,
+        1.4449766034314624e-07
+      ],
+      "target": 5,
+      "semantic_labels": [
+        "Решение 3: правильных ответов 163–172",
+        "Решение 1: правильных ответов 143–152",
+        "Решение 5: правильных ответов 183–192",
+        "Решение 7: правильных ответов 203–212",
+        "Решение 4: правильных ответов 173–182",
+        "Решение 6: правильных ответов 193–202",
+        "Решение 2: правильных ответов 153–162"
+      ],
+      "latency_ms": 129.24438097979873
+    },
+    {
+      "id": "bucket-4-38",
+      "task": "priority",
+      "language": "ru",
+      "scores": [
+        25.875,
+        33.75
+      ],
+      "probabilities": [
+        0.0003799845147518645,
+        0.999620015485248
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Критический приоритет",
+        "Низкий приоритет"
+      ],
+      "latency_ms": 74.29178000893444
+    },
+    {
+      "id": "bucket-0-279",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        21.25,
+        39.75,
+        19.375,
+        18.375
+      ],
+      "probabilities": [
+        9.237449558740249e-09,
+        0.9999999888248002,
+        1.41660877081231e-09,
+        5.211412429649965e-10
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 132–141",
+        "Категория: значение в диапазоне 122–131",
+        "Категория: значение в диапазоне 142–151",
+        "Категория: значение в диапазоне 152–161"
+      ],
+      "latency_ms": 104.83412002213299
+    },
+    {
+      "id": "bucket-0-21",
+      "task": "classification",
+      "language": "en",
+      "scores": [
+        20.375,
+        18.625,
+        18.375,
+        43.0
+      ],
+      "probabilities": [
+        1.4930946759053203e-10,
+        2.5946094977693184e-11,
+        2.0206839086272497e-11,
+        0.9999999998045377
+      ],
+      "target": 3,
+      "semantic_labels": [
+        "Category: value in range 132–141",
+        "Category: value in range 152–161",
+        "Category: value in range 142–151",
+        "Category: value in range 122–131"
+      ],
+      "latency_ms": 101.67436802294105
+    },
+    {
+      "id": "bucket-3-34",
+      "task": "workflow",
+      "language": "ru",
+      "scores": [
+        20.125,
+        19.5,
+        20.125,
+        19.25,
+        18.0,
+        18.75,
+        35.75,
+        18.875
+      ],
+      "probabilities": [
+        1.6373761625074816e-07,
+        8.76424303766697e-08,
+        1.6373761625074816e-07,
+        6.825599340763144e-08,
+        1.955566952574392e-08,
+        4.139935271087186e-08,
+        0.9999994087597092,
+        4.6911612482292367e-08
+      ],
+      "target": 6,
+      "semantic_labels": [
+        "Решение 4: готовых документов 82–91",
+        "Решение 8: готовых документов 122–131",
+        "Решение 3: готовых документов 72–81",
+        "Решение 6: готовых документов 102–111",
+        "Решение 1: готовых документов 52–61",
+        "Решение 5: готовых документов 92–101",
+        "Решение 7: готовых документов 112–121",
+        "Решение 2: готовых документов 62–71"
+      ],
+      "latency_ms": 131.78815797436982
+    },
+    {
+      "id": "bucket-0-184",
+      "task": "classification",
+      "language": "ru",
+      "scores": [
+        40.5,
+        16.625,
+        16.5
+      ],
+      "probabilities": [
+        0.9999999999194709,
+        4.277787868624512e-11,
+        3.7751345439750895e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Категория: значение в диапазоне 115–124",
+        "Категория: значение в диапазоне 135–144",
+        "Категория: значение в диапазоне 125–134"
+      ],
+      "latency_ms": 102.10997198009863
+    },
+    {
+      "id": "bucket-5-31",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        38.25,
+        16.0,
+        15.4375
+      ],
+      "probabilities": [
+        0.9999999996589741,
+        2.1724399343381587e-10,
+        1.2378189623454569e-10
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 1: нарушений 115–124",
+        "Решение 2: нарушений 125–134",
+        "Решение 3: нарушений 135–144"
+      ],
+      "latency_ms": 101.22278402559459
+    },
+    {
+      "id": "bucket-5-191",
+      "task": "safety",
+      "language": "ru",
+      "scores": [
+        39.0,
+        15.6875,
+        14.8125
+      ],
+      "probabilities": [
+        0.9999999998936255,
+        7.507751520123679e-11,
+        3.129696461923148e-11
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Решение 1: нарушений 115–124",
+        "Решение 2: нарушений 125–134",
+        "Решение 3: нарушений 135–144"
+      ],
+      "latency_ms": 102.52612800104544
+    },
+    {
+      "id": "bucket-2-176",
+      "task": "judging",
+      "language": "ru",
+      "scores": [
+        23.25,
+        20.0,
+        20.125,
+        18.5,
+        38.0
+      ],
+      "probabilities": [
+        3.9278618617149505e-07,
+        1.5229973216043002e-08,
+        1.7257820590008324e-08,
+        3.3982663627519716e-09,
+        0.9999995713277537
+      ],
+      "target": 4,
+      "semantic_labels": [
+        "Решение 3: правильных ответов 100–109",
+        "Решение 2: правильных ответов 90–99",
+        "Решение 5: правильных ответов 120–129",
+        "Решение 4: правильных ответов 110–119",
+        "Решение 1: правильных ответов 80–89"
+      ],
+      "latency_ms": 110.06636801175773
+    },
+    {
+      "id": "bucket-4-235",
+      "task": "priority",
+      "language": "en",
+      "scores": [
+        30.375,
+        42.25
+      ],
+      "probabilities": [
+        6.96225625013837e-06,
+        0.9999930377437499
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Critical priority",
+        "Low priority"
+      ],
+      "latency_ms": 74.07697301823646
+    },
+    {
+      "id": "bucket-3-288",
+      "task": "verification",
+      "language": "ru",
+      "scores": [
+        23.25,
+        19.25,
+        17.5,
+        19.0,
+        17.5,
+        39.5
+      ],
+      "probabilities": [
+        8.764247421408454e-08,
+        1.6052279090203696e-09,
+        2.78946783887182e-10,
+        1.2501527525531378e-09,
+        2.78946783887182e-10,
+        0.9999999089442516
+      ],
+      "target": 5,
+      "semantic_labels": [
+        "Решение 5: совпавших записей 127–136",
+        "Решение 2: совпавших записей 97–106",
+        "Решение 4: совпавших записей 117–126",
+        "Решение 1: совпавших записей 87–96",
+        "Решение 3: совпавших записей 107–116",
+        "Решение 6: совпавших записей 137–146"
+      ],
+      "latency_ms": 128.19745304295793
+    }
+  ],
+  "by_language": {
+    "ru": {
+      "count": 105,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "nll": 0.009271527124430433,
+      "brier": 0.005612888895379739,
+      "ece": 0.007326793656885005,
+      "reliability_bins": [
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 1,
+          "accuracy": 1.0,
+          "confidence": 0.5621757045950935
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 1,
+          "accuracy": 1.0,
+          "confidence": 0.6791784865026023
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 103,
+          "accuracy": 1.0,
+          "confidence": 0.9998964317954309
+        }
+      ],
+      "p50_latency_ms": 104.10779702942818,
+      "p95_latency_ms": 131.44845843780786,
+      "throughput_per_second": 9.105153238305556
+    },
+    "en": {
+      "count": 112,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "nll": 3.058285523301192e-07,
+      "brier": 3.6240431597064566e-12,
+      "ece": 3.058276291101336e-07,
+      "reliability_bins": [
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 112,
+          "accuracy": 1.0,
+          "confidence": 0.9999996941723709
+        }
+      ],
+      "p50_latency_ms": 102.92935502366163,
+      "p95_latency_ms": 108.79734103218652,
+      "throughput_per_second": 9.772513359212772
+    }
+  },
+  "errors": []
+}

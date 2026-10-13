@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "port": 8001,
+  "health": {
+    "status": "ok",
+    "model": "Qwen/Qwen3.5-9B"
+  },
+  "models": {
+    "models": [
+      {
+        "model": "Qwen/Qwen3.5-9B",
+        "revision": "main",
+        "resolved_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "tokenizer_revision": null,
+        "backend": "transformers-bnb4",
+        "adapter": "checkpoints/qlora_smoke/adapter",
+        "label_tokens": [],
+        "versions": {
+          "torch": "2.11.0+cu128",
+          "transformers": "5.17.0",
+          "bitsandbytes": "0.50.2",
+          "peft": "0.21.2"
+        },
+        "gpu_peak_allocated_bytes": 7949064192,
+        "gpu_peak_reserved_bytes": 8069840896
+      }
+    ]
+  },
+  "response": {
+    "model": "Qwen/Qwen3.5-9B",
+    "selected": "choice_0",
+    "confidence": 0.9999999994249451,
+    "probabilities": {
+      "choice_0": 0.9999999994249451,
+      "choice_1": 4.058652124141745e-10,
+      "choice_2": 1.6918979216421962e-10
+    },
+    "calibrated": false,
+    "calibration_experimental": null,
+    "requires_review": false,
+    "latency_ms": 400.267162011005
+  },
+  "batch_count": 2,
+  "invalid_status": 422,
+  "swagger_status": 200
+}

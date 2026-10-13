@@ -1,0 +1,19 @@
+{
+  "state": "Покупатель хочет вернуть деньги за отменённый заказ.",
+  "question": "Какой агент нужен?",
+  "options": [
+    {
+      "id": "choice_0",
+      "description": "Возвраты и отмены"
+    },
+    {
+      "id": "choice_1",
+      "description": "Доставка"
+    },
+    {
+      "id": "choice_2",
+      "description": "Техническая поддержка"
+    }
+  ],
+  "confidence_threshold": null
+}

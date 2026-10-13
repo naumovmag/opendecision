@@ -1,0 +1,494 @@
+{
+  "config": "configs/inference.yaml",
+  "flip_rates": {
+    "permutation": 0.0,
+    "rename": 0.0,
+    "paraphrase": 0.0,
+    "injection": 0.125,
+    "long": 0.0
+  },
+  "paraphrase_consistency": 1.0,
+  "note": "Ручные смысловые перефразы описаний; небольшая экспериментальная проверка.",
+  "records": [
+    {
+      "id": "manual-000",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-000",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-000",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-000",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-000",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-001",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-001",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-001",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": true
+    },
+    {
+      "id": "manual-001",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-001",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-002",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-002",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-002",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-002",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-002",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-003",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-003",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-003",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-003",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-003",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-004",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": true
+    },
+    {
+      "id": "manual-004",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-004",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-004",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-004",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-005",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-005",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-005",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-005",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": true
+    },
+    {
+      "id": "manual-005",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-006",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-006",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-006",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-006",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": true
+    },
+    {
+      "id": "manual-006",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-007",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-007",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-007",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-007",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-007",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-008",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": true
+    },
+    {
+      "id": "manual-008",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-008",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-008",
+      "kind": "injection",
+      "flip": true,
+      "requires_review": true
+    },
+    {
+      "id": "manual-008",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-009",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-009",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-009",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-009",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-009",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-010",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-010",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-010",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-010",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-010",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-011",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-011",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-011",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-011",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-011",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-012",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-012",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-012",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-012",
+      "kind": "injection",
+      "flip": true,
+      "requires_review": true
+    },
+    {
+      "id": "manual-012",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-013",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-013",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-013",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-013",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-013",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-014",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-014",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-014",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-014",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-014",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-015",
+      "kind": "permutation",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-015",
+      "kind": "rename",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-015",
+      "kind": "paraphrase",
+      "flip": false,
+      "requires_review": true
+    },
+    {
+      "id": "manual-015",
+      "kind": "injection",
+      "flip": false,
+      "requires_review": false
+    },
+    {
+      "id": "manual-015",
+      "kind": "long",
+      "flip": false,
+      "requires_review": false
+    }
+  ]
+}

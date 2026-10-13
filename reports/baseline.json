@@ -1,0 +1,479 @@
+{
+  "split": "test",
+  "dataset": "data/examples/independent.jsonl",
+  "dataset_sha256": "5e37f295720eebf911cfc0473eb5e93e66701d51ee3eb58b7238cce87a81990e",
+  "sample_ids": [
+    "manual-000",
+    "manual-001",
+    "manual-002",
+    "manual-003",
+    "manual-004",
+    "manual-005",
+    "manual-006",
+    "manual-007",
+    "manual-008",
+    "manual-009",
+    "manual-010",
+    "manual-011",
+    "manual-012",
+    "manual-013",
+    "manual-014",
+    "manual-015"
+  ],
+  "identity": {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "main",
+    "quantize": true,
+    "adapter": null
+  },
+  "metadata": {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "main",
+    "resolved_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "tokenizer_revision": null,
+    "backend": "transformers-bnb4",
+    "adapter": null,
+    "label_tokens": [
+      [
+        32
+      ],
+      [
+        33
+      ],
+      [
+        34
+      ]
+    ],
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.17.0",
+      "bitsandbytes": "0.50.2",
+      "peft": "0.21.2"
+    },
+    "gpu_peak_allocated_bytes": 8019710976,
+    "gpu_peak_reserved_bytes": 8134852608
+  },
+  "metrics": {
+    "count": 16,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "nll": 0.051009502060049644,
+    "brier": 0.008468265656094934,
+    "ece": 0.048216560313767864,
+    "reliability_bins": [
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 4,
+        "accuracy": 1.0,
+        "confidence": 0.8640837409456266
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 12,
+        "accuracy": 1.0,
+        "confidence": 0.9810166725997673
+      }
+    ],
+    "p50_latency_ms": 71.91208601580001,
+    "p95_latency_ms": 228.2676862378139,
+    "throughput_per_second": 8.86234029121102
+  },
+  "records": [
+    {
+      "id": "manual-000",
+      "task": "routing",
+      "scores": [
+        24.0,
+        19.75,
+        20.125
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Возвраты и отмены",
+        "Доставка",
+        "Техническая поддержка"
+      ],
+      "latency_ms": 627.0381810027175,
+      "language": "ru",
+      "probabilities": [
+        0.966166238232437,
+        0.013781621217125381,
+        0.020052140550437473
+      ]
+    },
+    {
+      "id": "manual-001",
+      "task": "routing",
+      "scores": [
+        19.375,
+        22.375,
+        20.0
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Account security",
+        "Shipping support",
+        "Refunds"
+      ],
+      "latency_ms": 72.14279205072671,
+      "language": "en",
+      "probabilities": [
+        0.04356580373705243,
+        0.8750425595489139,
+        0.08139163671403382
+      ]
+    },
+    {
+      "id": "manual-002",
+      "task": "classification",
+      "scores": [
+        20.25,
+        18.5,
+        25.375
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Негативная",
+        "Нейтральная",
+        "Позитивная"
+      ],
+      "latency_ms": 89.97089101467282,
+      "language": "ru",
+      "probabilities": [
+        0.005905003297411579,
+        0.0010261357090790917,
+        0.9930688609935093
+      ]
+    },
+    {
+      "id": "manual-003",
+      "task": "classification",
+      "scores": [
+        19.125,
+        24.125,
+        18.5
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ],
+      "latency_ms": 67.4816719838418,
+      "language": "en",
+      "probabilities": [
+        0.006668959876057012,
+        0.9897614031339489,
+        0.0035696369899941042
+      ]
+    },
+    {
+      "id": "manual-004",
+      "task": "judging",
+      "scores": [
+        20.25,
+        23.875
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Да, ответ верный",
+        "Нет, ответ неверный"
+      ],
+      "latency_ms": 90.69670300232247,
+      "language": "ru",
+      "probabilities": [
+        0.02595735719779685,
+        0.9740426428022031
+      ]
+    },
+    {
+      "id": "manual-005",
+      "task": "judging",
+      "scores": [
+        23.875,
+        19.5,
+        19.5
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Fully correct",
+        "Partially correct",
+        "Incorrect"
+      ],
+      "latency_ms": 70.26971300365403,
+      "language": "en",
+      "probabilities": [
+        0.9754419948394351,
+        0.012279002580282378,
+        0.012279002580282378
+      ]
+    },
+    {
+      "id": "manual-006",
+      "task": "verification",
+      "scores": [
+        23.375,
+        21.625
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Да",
+        "Нет"
+      ],
+      "latency_ms": 71.68137998087332,
+      "language": "ru",
+      "probabilities": [
+        0.8519528019683106,
+        0.1480471980316895
+      ]
+    },
+    {
+      "id": "manual-007",
+      "task": "verification",
+      "scores": [
+        18.5,
+        23.375
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Yes",
+        "No"
+      ],
+      "latency_ms": 69.83753497479483,
+      "language": "en",
+      "probabilities": [
+        0.007577241267860811,
+        0.9924227587321393
+      ]
+    },
+    {
+      "id": "manual-008",
+      "task": "rating",
+      "scores": [
+        19.625,
+        19.5,
+        22.0
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "1 — неверно",
+        "2 — частично",
+        "3 — полностью верно"
+      ],
+      "latency_ms": 95.34418798284605,
+      "language": "ru",
+      "probabilities": [
+        0.07915456535690248,
+        0.06985365875289636,
+        0.850991775890201
+      ]
+    },
+    {
+      "id": "manual-009",
+      "task": "priority",
+      "scores": [
+        17.625,
+        18.375,
+        23.75
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Low: cosmetic issue",
+        "Medium: some users affected",
+        "Critical: core service down for all"
+      ],
+      "latency_ms": 69.4550919579342,
+      "language": "en",
+      "probabilities": [
+        0.0021726769164908876,
+        0.004599557068305183,
+        0.9932277660152039
+      ]
+    },
+    {
+      "id": "manual-010",
+      "task": "risk",
+      "scores": [
+        18.25,
+        24.125
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Низкий",
+        "Высокий"
+      ],
+      "latency_ms": 70.59151999419555,
+      "language": "ru",
+      "probabilities": [
+        0.002800926967120973,
+        0.9971990730328789
+      ]
+    },
+    {
+      "id": "manual-011",
+      "task": "safety",
+      "scores": [
+        18.375,
+        24.0
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Safe routine message",
+        "Suspicious credential request"
+      ],
+      "latency_ms": 69.7405919781886,
+      "language": "en",
+      "probabilities": [
+        0.0035936025814200896,
+        0.9964063974185798
+      ]
+    },
+    {
+      "id": "manual-012",
+      "task": "workflow",
+      "scores": [
+        23.25,
+        20.75,
+        20.375
+      ],
+      "target": 0,
+      "semantic_labels": [
+        "Отправить",
+        "Ждать оплату",
+        "Запросить адрес"
+      ],
+      "latency_ms": 92.31454104883596,
+      "language": "ru",
+      "probabilities": [
+        0.8783478263750808,
+        0.07209918011930301,
+        0.049552993505616164
+      ]
+    },
+    {
+      "id": "manual-013",
+      "task": "routing",
+      "scores": [
+        18.625,
+        18.375,
+        22.625
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Возвраты",
+        "Доставка",
+        "Уточнить запрос"
+      ],
+      "latency_ms": 90.73081699898466,
+      "language": "ru",
+      "probabilities": [
+        0.017737745399887272,
+        0.013814170007353419,
+        0.9684480845927594
+      ]
+    },
+    {
+      "id": "manual-014",
+      "task": "routing",
+      "scores": [
+        18.0,
+        18.125,
+        22.625
+      ],
+      "target": 2,
+      "semantic_labels": [
+        "Billing",
+        "Shipping",
+        "General research"
+      ],
+      "latency_ms": 67.36013200134039,
+      "language": "en",
+      "probabilities": [
+        0.009602834307818942,
+        0.01088143684096208,
+        0.9795157288512191
+      ]
+    },
+    {
+      "id": "manual-015",
+      "task": "classification",
+      "scores": [
+        18.25,
+        23.25,
+        20.25
+      ],
+      "target": 1,
+      "semantic_labels": [
+        "Позитивная",
+        "Негативная",
+        "Нейтральная"
+      ],
+      "latency_ms": 90.7364470185712,
+      "language": "ru",
+      "probabilities": [
+        0.006377460922442298,
+        0.9464991225528937,
+        0.047123416524664154
+      ]
+    }
+  ],
+  "by_language": {
+    "ru": {
+      "count": 9,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "nll": 0.06764610014912437,
+      "brier": 0.01216066655259197,
+      "ece": 0.06369817483996953,
+      "reliability_bins": [
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 3,
+          "accuracy": 1.0,
+          "confidence": 0.8604308014111975
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 6,
+          "accuracy": 1.0,
+          "confidence": 0.9742373370344469
+        }
+      ],
+      "p50_latency_ms": 90.73081699898466,
+      "p95_latency_ms": 414.3605837947687,
+      "throughput_per_second": 6.822809605658725
+    },
+    "en": {
+      "count": 7,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "nll": 0.029619590231239282,
+      "brier": 0.00372089307488446,
+      "ece": 0.028311627351508634,
+      "reliability_bins": [
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 1,
+          "accuracy": 1.0,
+          "confidence": 0.8750425595489139
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 6,
+          "accuracy": 1.0,
+          "confidence": 0.9877960081650876
+        }
+      ],
+      "p50_latency_ms": 69.7405919781886,
+      "p95_latency_ms": 71.58086833660491,
+      "throughput_per_second": 14.394775925063044
+    }
+  },
+  "errors": []
+}
